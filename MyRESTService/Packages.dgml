@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="JMAApp" Label="JMAApp" Category="Project" />
+    <Node Id="angularjs 1.6.1" Label="angularjs 1.6.1" Category="Package" />
+    <Node Id="bootstrap 3.3.7" Label="bootstrap 3.3.7" Category="Package" />
+    <Node Id="jQuery 3.1.1" Label="jQuery 3.1.1" Category="Package" />
+    <Node Id="jsTree 3.1.1.2" Label="jsTree 3.1.1.2" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="bootstrap 3.3.7" Target="jQuery 3.1.1" Category="Package Dependency" />
+    <Link Source="jsTree 3.1.1.2" Target="jQuery 3.1.1" Category="Package Dependency" />
+    <Link Source="JMAApp" Target="angularjs 1.6.1" Category="Installed Package" />
+    <Link Source="JMAApp" Target="bootstrap 3.3.7" Category="Installed Package" />
+    <Link Source="JMAApp" Target="jsTree 3.1.1.2" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>

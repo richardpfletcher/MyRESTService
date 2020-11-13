@@ -1,0 +1,105 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>John and Rick</h2>
+
+@try
+{
+
+    foreach (MvcRichard.Models.DocumentModel order
+       in (List<MvcRichard.Models.DocumentModel>)ViewData["JohnAndRickData"])
+    {
+
+    <div>
+        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+    </div>
+    <p></p>
+    }
+}
+catch
+{
+}
+
+
+<h2>Mafu</h2>
+
+@try
+{
+
+    foreach (MvcRichard.Models.DocumentModel order
+       in (List<MvcRichard.Models.DocumentModel>)ViewData["MafuData"])
+    {
+
+    <div>
+        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+    </div>
+    <p></p>
+    }
+}
+catch
+{
+}
+
+
+<h2>Monroe</h2>
+
+@try
+{
+
+    foreach (MvcRichard.Models.DocumentModel order
+       in (List<MvcRichard.Models.DocumentModel>)ViewData["MonroeData"])
+    {
+
+    <div>
+        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+    </div>
+    <p></p>
+    }
+}
+catch
+{
+}
+
+
+<h2>Paul</h2>
+
+@try
+{
+
+    foreach (MvcRichard.Models.DocumentModel order
+       in (List<MvcRichard.Models.DocumentModel>)ViewData["PaulData"])
+    {
+
+    <div>
+        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+    </div>
+    <p></p>
+    }
+}
+catch
+{
+}
+
+<h2>Zoran</h2>
+
+@try
+{
+
+    foreach (MvcRichard.Models.DocumentModel order
+       in (List<MvcRichard.Models.DocumentModel>)ViewData["ZoranData"])
+    {
+
+    <div>
+        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+    </div>
+    <p></p>
+    }
+}
+catch
+{
+}
+
+
+
+

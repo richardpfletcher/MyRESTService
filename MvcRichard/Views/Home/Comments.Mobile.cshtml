@@ -1,0 +1,66 @@
+﻿@model MvcRichard.Models.EmailModel
+
+<h2>Comments</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+
+            @using (Html.BeginForm("\\home\\CommentsPost"))
+            {
+                @Html.ValidationSummary(true)
+                <div>
+                    We would love to hear from you. If you have any suggestions to make this a better
+        place please send us an email. We strive to make this a better place to visit and
+        share.
+                </div>
+                
+                 <p>
+                        
+
+                        I cannot do another thing than be surprised and to congratulate the whole family Fletcher for having had such an intelligent, creative and avant-garde dad..
+
+                    </p>
+                    <p>
+
+                        Rick, finally had some time to take a listen to some of these! FANTASTIC is all I can say! What a truly epic account of things significant in your life! This will be a treasure to your Daughters and others!
+                    </p>
+                
+                
+                <fieldset>
+                    <legend>Comments:</legend>
+
+                    @{
+                string message = (string)ViewData["message"]; }
+                    <h2>
+                        <b>@message
+                        </b>
+                    </h2>
+
+                    <br />
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Email)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.Email)
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </div>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Comments)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextAreaFor(model => model.Comments, new { style = "width: 200px ;height: 350px " })
+
+                        @Html.ValidationMessageFor(model => model.Comments)
+                    </div>
+                    <p>
+                        <input type="submit" value="Send Email" />
+                    </p>
+                </fieldset>
+            }
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        </div>
+    </div>
+</div>

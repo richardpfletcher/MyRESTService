@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "HouseOfTheFuture";
+}
+
+<h2>House Of The Future</h2>
+
+<p>
+
+    Thanks to Jason Fletcher for converting the videos. They have been in the family for many years and never were seen before. These videos were shown in movie theaters in the fifties.
+</p>
+
+<p>
+
+    The first house I remembered was near an orange grove. My brother and I would sneak through the fence and walk in the orange grove. There was a tree house and we would climb up in it. We were probably three years old. Our house was years ahead of its time. My father and grandfather were both inventors. They developed a house were you could walk in the house clap your hands and the lights would come on. The outlets weren't on the wall but hidden in the carpets. We had sensors that when it rained the windows would close. My mom would watch us in the back yard by a video cameras while she was cooking dinner. This house was featured in the Los Angeles Times Home section. This was back in the early fifties. In the early 2000’s I saw a Burger King commercial where my Mom was making hamburgers. The frying pan was floating in the air. The stove used induction coils. 
+</p>
+
+<p>
+At that same time period they developed a jeep that you could shoot at the tires and nothing would happen. This jeep could float down stream. It was lighter and got more miles per gallon than the standard jeep. They tried to get the US government to buy the jeeps but after several years of losing bids they saw the hand writing on the wall. If you don't have inside connections with the government you could have a futuristic jeep and nobody would care. During this time they came up with a way to make houses that would cost 1/10 of the present day house. It was all modular. They could put up a complete house in a week. The trade union was strongly opposed to this. Consequently it was never marketed. I guess those early years really had an impact on me. I subconsciously adapted to always look towards the future and bring that technology back to the present.
+
+</p>
+
+<p>
+    Here's a quote from a dear friend Monica De Carolis about this house.<br />
+    
+ I cannot do another thing than be surprised and to congratulate the whole family Fletcher for having had such an intelligent, creative and avant-garde dad..
+
+</p>
+
+
+<p></p>
+
+
+
+
+
+@try
+{
+    string str = System.Configuration.ConfigurationManager.AppSettings["env"];
+    str = str + "/Mp4";
+    var strflicker = str + "/35mm-flicker.mp4";
+
+    <div>
+        <a target="_blank" class="btn btn-info" href="@strflicker">House of the Future 1 video</a>
+    </div>
+    <p></p>
+
+
+    var house2 = str + "/16mm-2.mp4";
+    <div>
+        <a target="_blank" class="btn btn-info" href="@house2">House of the Future 2 video</a>
+    </div>
+    <p></p>
+
+   
+
+    var house3 = str + "/16mm-1.mp4";
+
+    <div>
+        <a target="_blank" class="btn btn-info" href="@house3">House of the Future 3 video</a>
+    </div>
+    <p></p>
+
+    
+    <div>
+        <a target="_blank" class="btn btn-info" href="http://www.weirduniverse.net/blog/comments/jack_fletchers_house_of_the_future">Jack Fletcher’s House of the Future</a>
+    </div>
+    <p></p>
+
+}
+catch
+{
+}
+
+
+
+
+ 
+
+<div>
+    <a target = "_blank" class="btn btn-info" href="http://blog.modernmechanix.com/a-house-of-magic/#more">A HOUSE OF MAGIC(Sep, 1954)</a>
+</div>
+<p></p>
+
+
