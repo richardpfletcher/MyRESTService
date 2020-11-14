@@ -36,7 +36,7 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "The Nathanamavali"));
             list.Add(new BookModel(counter++, "The Bhavishya Maha Purana"));
             list.Add(new BookModel(counter++, "Master and disciple"));
-            list.Add(new BookModel(counter++, "Meditation Talk 2 - 13 - 2017"));
+            
             list.Add(new BookModel(counter++, "Saint Thomas the Apostle in India"));
             list.Add(new BookModel(counter++, "The disciples of Saint Thomas"));
             list.Add(new BookModel(counter++, "Naassenes"));
@@ -47,7 +47,12 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Archaeological evidence"));
             list.Add(new BookModel(counter++, "Spiritual meanings"));
             list.Add(new BookModel(counter++, "Did Jesus As A Boy Visit England"));
-            list.Add(new BookModel(counter++, "Meditation Talk 2 - 14 - 2017"));
+            list.Add(new BookModel(counter++, "Joseph of Arimathea"));
+            list.Add(new BookModel(counter++, "Meditation Talk 2-13-2017"));
+
+
+
+            list.Add(new BookModel(counter++, "Meditation Talk 2-14-2017"));
             list.Add(new BookModel(counter++, "You Are Closer Than You Think"));
             list.Add(new BookModel(counter++, "The Breath"));
             list.Add(new BookModel(counter++, "Breathing Through Your Mouth"));
@@ -89,8 +94,8 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Occam's razor"));
             list.Add(new BookModel(counter++, "Relax Your Muscles Every Day"));
             list.Add(new BookModel(counter++, "Garbage Collector For The Mind"));
-            list.Add(new BookModel(counter++, "3 / 16 / 2018 Panpsychism"));
-            list.Add(new BookModel(counter++, "4 / 28 / 2018 Chicken"));
+            list.Add(new BookModel(counter++, "3/16/2018 Panpsychism"));
+            list.Add(new BookModel(counter++, "4/28/2018 Chicken"));
             list.Add(new BookModel(counter++, "A Man Who Knows His True Home"));
             list.Add(new BookModel(counter++, "Are There New Rules To Discover God"));
             list.Add(new BookModel(counter++, "When I Returned From India"));
