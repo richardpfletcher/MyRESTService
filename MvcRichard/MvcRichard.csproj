@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -249,6 +250,7 @@
     <Compile Include="Factory\LoadKeysHardwired.cs" />
     <Compile Include="Factory\LoadKeysHeartOfGold.cs" />
     <Compile Include="Factory\LoadKeysHuman.cs" />
+    <Compile Include="Factory\LoadKeysJaiJinendra.cs" />
     <Compile Include="Factory\LoadKeysJatakaTales.cs" />
     <Compile Include="Factory\LoadKeysJourney.cs" />
     <Compile Include="Factory\LoadKeysKabbalah.cs" />
@@ -781,6 +783,8 @@
     <Content Include="Views\Talks\Talks2017.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2019.cshtml" />
     <Content Include="Views\Talks\Talks2019.Mobile.cshtml" />
+    <Content Include="Views\Talks\Talks2020.cshtml" />
+    <Content Include="Views\Talks\Talks2020.Mobile.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -959,8 +963,6 @@
     <Content Include="Views\Sayings2019\Sayings23.cshtml" />
     <Content Include="Views\CD2019\CD71.Mobile.cshtml" />
     <Content Include="Views\CD2019\CD71.cshtml" />
-    <Content Include="Views\Talks\Talks2020.cshtml" />
-    <Content Include="Views\Talks\Talks2020.Mobile.cshtml" />
     <Content Include="Views\Books\SuperBowll.Mobile.cshtml" />
     <Content Include="Views\Books\SuperBowl.cshtml" />
     <Content Include="Views\CD\CD77.cshtml" />
@@ -995,6 +997,10 @@
     <Content Include="Views\Books\SparkTales.cshtml" />
     <Content Include="Views\Books\Pandora.Mobile.cshtml" />
     <Content Include="Views\Books\Pandora.cshtml" />
+    <Content Include="Views\Books\JaiJinendra.cshtml" />
+    <Content Include="Views\Books\JaiJinendra.Mobile.cshtml" />
+    <Content Include="Views\Talks\Talks2021.cshtml" />
+    <Content Include="Views\Talks\Talks2021.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
