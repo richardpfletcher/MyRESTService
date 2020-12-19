@@ -16,21 +16,79 @@ namespace MvcRichard.Factory
             //talks
 
             list.Add(new BookModel(counter++, "Intro"));
-            list.Add(new BookModel(counter++, "Message1"));
-            list.Add(new BookModel(counter++, "Message2"));
-            list.Add(new BookModel(counter++, "Message3"));
-            list.Add(new BookModel(counter++, "Message4"));
-            list.Add(new BookModel(counter++, "Message5"));
-            list.Add(new BookModel(counter++, "Message6"));
-            list.Add(new BookModel(counter++, "Message7"));
-            list.Add(new BookModel(counter++, "Message8"));
-            list.Add(new BookModel(counter++, "Message9)"));
-            list.Add(new BookModel(counter++, "Message10"));
-            list.Add(new BookModel(counter++, "Message11"));
-            list.Add(new BookModel(counter++, "Message12"));
-            list.Add(new BookModel(counter++, "Message13"));
-            list.Add(new BookModel(counter++, "Message14"));
-            list.Add(new BookModel(counter++, "Message15"));
+
+            list.Add(new BookModel(counter++, "Intro Richard"));
+
+
+
+            list.Add(new BookModel(counter++, "Fast Foreword 49 years"));
+
+            list.Add(new BookModel(counter++, "Surfing Experience In France"));
+
+            list.Add(new BookModel(counter++, "Indian Pakistan War"));
+
+            list.Add(new BookModel(counter++, "First Day In India"));
+
+            list.Add(new BookModel(counter++, "Initiation"));
+
+            list.Add(new BookModel(counter++, "Finding Bombay Ashram"));
+
+            list.Add(new BookModel(counter++, "Asokananda Incident"));
+
+            list.Add(new BookModel(counter++, "Getting Drunk On Water"));
+
+            list.Add(new BookModel(counter++, "Where they came from"));
+
+            list.Add(new BookModel(counter++, "Buddha and the drunk elephant"));
+
+            list.Add(new BookModel(counter++, "The Deer King of the Banyan"));
+
+            list.Add(new BookModel(counter++, "The Golden Plate"));
+
+            list.Add(new BookModel(counter++, "Beauty and Grey"));
+
+            list.Add(new BookModel(counter++, "The Wind and the Moon"));
+
+            list.Add(new BookModel(counter++, "Two Stupid Children"));
+
+            list.Add(new BookModel(counter++, "The Tree That Acted Like a Hunter"));
+
+            list.Add(new BookModel(counter++, "The Magic Priest and the Kidnapper Gang"));
+
+            list.Add(new BookModel(counter++, "Watering the Garden"));
+
+            list.Add(new BookModel(counter++, "The Bull Called Delightful"));
+
+            list.Add(new BookModel(counter++, "Buried Treasure"));
+
+            list.Add(new BookModel(counter++, "The Birth of a Banyan Tree"));
+
+            list.Add(new BookModel(counter++, "The Fawn Who Played Hooky"));
+
+            list.Add(new BookModel(counter++, "Finding a New Spring"));
+
+            list.Add(new BookModel(counter++, "Best Friends"));
+
+            list.Add(new BookModel(counter++, "The Baby Quail Who Could Not Fly Away"));
+
+            list.Add(new BookModel(counter++, "The Mouse Merchant"));
+
+            list.Add(new BookModel(counter++, "The Fortunate Fish"));
+
+            list.Add(new BookModel(counter++, "Bamboo's Father"));
+
+            list.Add(new BookModel(counter++, "Big Red, Little Red and No - squeal"));
+
+            list.Add(new BookModel(counter++, "The Crane and the Crab"));
+
+            list.Add(new BookModel(counter++, "Salty Liquor"));
+
+            list.Add(new BookModel(counter++, "Little Prince No - father"));
+
+            list.Add(new BookModel(counter++, "The Silent Buddha"));
+
+            list.Add(new BookModel(counter++, "Demons in the Desert"));
+
 
 
 

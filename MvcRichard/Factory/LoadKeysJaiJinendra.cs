@@ -113,12 +113,18 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "11-28-2020 40 Days 40 Nights"));
             list.Add(new BookModel(counter++, "Teachers Pramilaji and Priyaji"));
             list.Add(new BookModel(counter++, "Asanas"));
-
-            
-
-
-
-
+            list.Add(new BookModel(counter++, "Jain Prānāyāma"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Labham Meditation"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Labham Chakras"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Acupressure"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Mantras"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Human Anatomy"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Seed Therapy"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Mudra Healing"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Detox Diet and others"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Rog Anusar Yoga"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Rog Saptu Dhatu 7 tissues"));
+            list.Add(new BookModel(counter++, "Arugga Bohi Rog Ritu Charya Seasonings"));
 
 
         }
