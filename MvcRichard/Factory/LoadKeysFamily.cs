@@ -54,6 +54,9 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "The Journey With The Girls"));
             list.Add(new BookModel(counter++, "FINDING BOMBAY ASHRAM"));
             list.Add(new BookModel(counter++, "ASOKANANDA INCIDENT"));
+            list.Add(new BookModel(counter++, "12-19-2020 Mahatma Ashokanand"));
+
+
             list.Add(new BookModel(counter++, "GETTING DRUNK ON WATER"));
             list.Add(new BookModel(counter++, "TRAVELS IN AFRICA"));
             list.Add(new BookModel(counter++, "SEEING MAHARAJ JI ON TELEPHONE WIRES"));
