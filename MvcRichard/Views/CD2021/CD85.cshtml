@@ -1,9 +1,5 @@
-﻿
-
-
-
-@{
-    ViewBag.Title = "CD.Mobile";
+﻿@{
+    ViewBag.Title = "CD";
 }
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,19 +10,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<div class="container">
+<div class="page-wrapper">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-6">
 
             <div>
-                <img src="\Audio\CD\CD83\album.jpg" style="width:300px;height:300px;" alt="album">
+                <img src="\Audio\CD\CD85\album.jpg" style="width:300px;height:300px;" alt="album">
 
             </div>
 
             <div>
 
-                @* <a href="\PDF\CD\beautifulday.pdf" target="_blank">Click to Open PDF </a>*@
-                <a href="https://drive.google.com/file/d/1AnCyv8LnUnNTOtog1MJS0Kn2V1qMS53K/view?usp=sharing">Click to Open PDF </a>
+                <a href="\PDF\CD\CD85.pdf" target="_blank">Click to Open PDF </a>
             </div>
 
             <p></p>
@@ -39,15 +34,29 @@
                 {
 
                     <div>
-                        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
-                    </div>
-                    <p></p>
-                }
+                        <div>
+                            @order.ShortName
+                        </div>
+                        <div>
+                            <audio controls>
 
+                                <source src="@order.PathName" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                }
             }
             catch
             {
             }
+        </div>
+        <div class="col-sm-6">
+            <div>
+                <object data="\PDF\CD\CD85.pdf" width="700" height="800" type="application/pdf">
+                    alt : <a href="\PDF\CD\CD85.pdf">Beautiful day</a>
+                </object>
+            </div>
         </div>
     </div>
 </div>
