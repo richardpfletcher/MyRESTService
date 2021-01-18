@@ -16,8 +16,12 @@ namespace MvcRichard.Factory
             //talks
 
             list.Add(new BookModel(counter++, "Harmony"));
+            list.Add(new BookModel(counter++, "Tao Te Ching"));
 
             
+
+
+
             list.Add(new BookModel(counter++, "Three"));
            
             list.Add(new BookModel(counter++, "Five"));
@@ -77,6 +81,9 @@ namespace MvcRichard.Factory
 
             list.Add(new BookModel(counter++, "Eighty"));
             list.Add(new BookModel(counter++, "Eighty-One"));
+
+            list.Add(new BookModel(counter++, "Closing"));
+
 
 
         }

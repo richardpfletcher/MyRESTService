@@ -236,6 +236,7 @@
     <Compile Include="Factory\LoadKeys.cs" />
     <Compile Include="Factory\LoadKeysActions.cs" />
     <Compile Include="Factory\LoadKeysAuto.cs" />
+    <Compile Include="Factory\LoadKeysBrokenRecord.cs" />
     <Compile Include="Factory\LoadKeysCloudy.cs" />
     <Compile Include="Factory\LoadKeysCorona.cs" />
     <Compile Include="Factory\LoadKeysCreative.cs" />
@@ -1011,6 +1012,8 @@
     <Content Include="Views\CD2021\CD85.Mobile.cshtml" />
     <Content Include="Views\Books\Harmony.Mobile.cshtml" />
     <Content Include="Views\Books\Harmony.cshtml" />
+    <Content Include="Views\Books\BrokenRecord.Mobile.cshtml" />
+    <Content Include="Views\Books\BrokenRecord.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
