@@ -16,21 +16,37 @@ namespace MvcRichard.Factory
             //talks
 
             list.Add(new BookModel(counter++, "Intro"));
-            list.Add(new BookModel(counter++, "Message1"));
-            list.Add(new BookModel(counter++, "Message2"));
-            list.Add(new BookModel(counter++, "Message3"));
-            list.Add(new BookModel(counter++, "Message4"));
-            list.Add(new BookModel(counter++, "Message5"));
-            list.Add(new BookModel(counter++, "Message6"));
-            list.Add(new BookModel(counter++, "Message7"));
-            list.Add(new BookModel(counter++, "Message8"));
-            list.Add(new BookModel(counter++, "Message9)"));
-            list.Add(new BookModel(counter++, "Message10"));
-            list.Add(new BookModel(counter++, "Message11"));
-            list.Add(new BookModel(counter++, "Message12"));
-            list.Add(new BookModel(counter++, "Message13"));
+            list.Add(new BookModel(counter++, "Harmony"));
+            list.Add(new BookModel(counter++, "Carl Yung-Quotes 1"));
+            list.Add(new BookModel(counter++, "Carl Yung-Quotes 2"));
+           
+            list.Add(new BookModel(counter++, "Depression and PTSD"));
+            list.Add(new BookModel(counter++, "Intuition And Synchronicity"));
+            list.Add(new BookModel(counter++, "Cloudy Health"));
+            list.Add(new BookModel(counter++, "Dialogue Vs Flaming"));
+            list.Add(new BookModel(counter++, "The Quantum Field"));
+            list.Add(new BookModel(counter++, "Chakras)"));
+            list.Add(new BookModel(counter++, "A Good Night Sleep"));
+            list.Add(new BookModel(counter++, "Silence"));
+            list.Add(new BookModel(counter++, "Cultivating The Mind"));
+            list.Add(new BookModel(counter++, "Ego Vs Humility"));
+            list.Add(new BookModel(counter++, "The Mind Of God"));
+            list.Add(new BookModel(counter++, "Think Outside Of The Box"));
+            list.Add(new BookModel(counter++, "It's Been There All The Time"));
+            list.Add(new BookModel(counter++, "What Is Panpsychism 3/16/2018"));
+            list.Add(new BookModel(counter++, "Custom Designed By God"));
+            list.Add(new BookModel(counter++, "Custom Designed By God 2"));
+            list.Add(new BookModel(counter++, "Signposts Are All  Around"));
+            list.Add(new BookModel(counter++, "Fellow Wizards Advice"));
+            list.Add(new BookModel(counter++, "Wizards Handbook"));
+            list.Add(new BookModel(counter++, "Message15"));
             list.Add(new BookModel(counter++, "Message14"));
             list.Add(new BookModel(counter++, "Message15"));
+            list.Add(new BookModel(counter++, "Message14"));
+            list.Add(new BookModel(counter++, "Message15"));
+            list.Add(new BookModel(counter++, "Message14"));
+            list.Add(new BookModel(counter++, "Message15"));
+
 
 
 
