@@ -17,7 +17,9 @@ namespace MvcRichard.Factory
         //protected LoadKeysHeartOfGold()
         public LoadKeysHeartOfGold(string chapter)
         {
-           if (chapter == "Indian Mystics")
+            list = new List<BookModel>();
+
+            if (chapter == "Indian Mystics")
             { 
 
                 list.Add(new BookModel(counter++, "Intro"));
