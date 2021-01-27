@@ -1276,6 +1276,29 @@ namespace MvcRichard.Controllers
         public ActionResult HeartOfGold(string chapter)
         {
 
+
+            string[] AgeRagne = new string[] { "Please Select one", "Indian Mystics", "Sufi", "Islam", "Jewish", "Western", "Hindu", "Sikh", "Taoist", "Jainism", "Buddhist", "Science", "Current", "Indigenous" };
+
+
+            List<SelectListItem> itemsAge = new List<SelectListItem>();
+            for (int i = 0; i < AgeRagne.Length; i++)
+            {
+
+
+                itemsAge.Add(new SelectListItem { Text = AgeRagne[i], Value = AgeRagne[i] });
+            }
+
+            foreach (SelectListItem s in itemsAge)
+            {
+                if (s.Value == chapter)
+                {
+                    s.Selected = true;
+                }
+            }
+
+
+            ViewData["ethnicData"] = itemsAge;
+
             string chap = chapter;
             //LoadKeysHeartOfGold s1 = LoadKeysHeartOfGold.Instance(chapter);
             LoadKeysHeartOfGold s1 = new LoadKeysHeartOfGold(chapter);
@@ -1313,7 +1336,8 @@ namespace MvcRichard.Controllers
 
             ViewData["orderData"] = list;
 
-            return View();
+            //return View();
+            return PartialView("HeartOfGold");
 
         }
 

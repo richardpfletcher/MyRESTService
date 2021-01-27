@@ -1014,6 +1014,7 @@
     <Content Include="Views\Books\Harmony.cshtml" />
     <Content Include="Views\Books\BrokenRecord.Mobile.cshtml" />
     <Content Include="Views\Books\BrokenRecord.cshtml" />
+    <Content Include="Views\Shared\SearchView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
