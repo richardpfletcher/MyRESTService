@@ -261,6 +261,7 @@
     <Compile Include="Factory\LoadKeysKingdomOfHeavenLiesInside.cs" />
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
+    <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
     <Compile Include="Factory\LoadKeysNonViolence.cs" />
     <Compile Include="Factory\LoadKeysOverTheHil.cs" />
     <Compile Include="Factory\LoadKeysPandora.cs" />
@@ -1015,6 +1016,8 @@
     <Content Include="Views\Books\BrokenRecord.Mobile.cshtml" />
     <Content Include="Views\Books\BrokenRecord.cshtml" />
     <Content Include="Views\Shared\SearchView.cshtml" />
+    <Content Include="Views\Books\MysticalAdventures.Mobile.cshtml" />
+    <Content Include="Views\Books\MysticalAdventures.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
