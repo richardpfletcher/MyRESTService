@@ -39,13 +39,8 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Signposts Are All  Around"));
             list.Add(new BookModel(counter++, "Fellow Wizards Advice"));
             list.Add(new BookModel(counter++, "Wizards Handbook"));
-            list.Add(new BookModel(counter++, "Message15"));
-            list.Add(new BookModel(counter++, "Message14"));
-            list.Add(new BookModel(counter++, "Message15"));
-            list.Add(new BookModel(counter++, "Message14"));
-            list.Add(new BookModel(counter++, "Message15"));
-            list.Add(new BookModel(counter++, "Message14"));
-            list.Add(new BookModel(counter++, "Message15"));
+            list.Add(new BookModel(counter++, "Closing"));
+            
 
 
 
