@@ -35,8 +35,8 @@ app.controller('CtrlSearch', ['$scope', '$http', '$window', '$interval', 'uiGrid
     //var apiPath = "/websvc/api/";
     var env = '@System.Configuration.ConfigurationManager.AppSettings["env"]';
 
-    var apiPath = "http://localhost:34667/api/";
-    //var apiPath = "http://api.evolutionrevolutionoflove.com/api/";
+    //var apiPath = "http://localhost:34667/api/";
+    var apiPath = "https://api.evolutionrevolutionoflove.com/api/";
     $scope.productList = [];
     $scope.categoryList = [];
     $scope.partofalbumList = [];

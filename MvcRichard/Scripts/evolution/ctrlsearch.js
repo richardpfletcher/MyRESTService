@@ -37,7 +37,7 @@ app.controller('CtrlSearch', ['$scope', '$http', '$window', '$interval', 'uiGrid
     
 
     //var apiPath = "http://localhost:34667/api/";  //good
-    var apiPath = "http://api.evolutionrevolutionoflove.com/api/";
+    var apiPath = "https://api.evolutionrevolutionoflove.com/api/";
    
     $scope.productList = [];
     $scope.categoryList = [];
