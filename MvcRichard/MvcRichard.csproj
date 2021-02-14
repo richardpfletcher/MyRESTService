@@ -765,6 +765,8 @@
     <Content Include="Views\CD2021\CD83.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD84.cshtml" />
     <Content Include="Views\CD2021\CD84.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD85.cshtml" />
+    <Content Include="Views\CD2021\CD85.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1009,8 +1011,6 @@
     <Content Include="Views\Books\JaiJinendra.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2021.cshtml" />
     <Content Include="Views\Talks\Talks2021.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD85.cshtml" />
-    <Content Include="Views\CD2021\CD85.Mobile.cshtml" />
     <Content Include="Views\Books\Harmony.Mobile.cshtml" />
     <Content Include="Views\Books\Harmony.cshtml" />
     <Content Include="Views\Books\BrokenRecord.Mobile.cshtml" />
@@ -1018,6 +1018,8 @@
     <Content Include="Views\Shared\SearchView.cshtml" />
     <Content Include="Views\Books\MysticalAdventures.Mobile.cshtml" />
     <Content Include="Views\Books\MysticalAdventures.cshtml" />
+    <Content Include="Views\CD2021\CD86.cshtml" />
+    <Content Include="Views\CD2021\CD86.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
