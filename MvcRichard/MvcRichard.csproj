@@ -224,6 +224,7 @@
     <Compile Include="Controllers\Sayings2018Controller.cs" />
     <Compile Include="Controllers\Sayings2019Controller.cs" />
     <Compile Include="Controllers\Sayings2020Controller.cs" />
+    <Compile Include="Controllers\Sayings2021Controller.cs" />
     <Compile Include="Controllers\SayingsController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\TalksController.cs" />
@@ -1022,6 +1023,8 @@
     <Content Include="Views\Books\MysticalAdventures.cshtml" />
     <Content Include="Views\CD2021\CD86.cshtml" />
     <Content Include="Views\CD2021\CD86.Mobile.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings27.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings27.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
