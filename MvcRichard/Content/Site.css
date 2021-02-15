@@ -18,7 +18,8 @@ body {
 }*/
 
 .page-wrapper {
-    background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;
+    //background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;
+    background: url(zen-bg.jpg) no-repeat top left;
     padding: 0 175px 0 110px;
     margin: 0;
     position: relative;
@@ -109,7 +110,8 @@ h5, h6 {
 
 #body {
     /*background-color: #efeeef;*/
-    background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+    //background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+    background: #fff url(blossoms.jpg) no-repeat bottom right;
     clear: both;
     padding-bottom: 35px;
 }
