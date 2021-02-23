@@ -244,6 +244,7 @@
     <Compile Include="Factory\LoadKeysDeath.cs" />
     <Compile Include="Factory\LoadKeysDragons.cs" />
     <Compile Include="Factory\LoadKeysDreams.cs" />
+    <Compile Include="Factory\LoadKeysEconomics.cs" />
     <Compile Include="Factory\LoadKeysFamily.cs" />
     <Compile Include="Factory\LoadKeysFractal.cs" />
     <Compile Include="Factory\LoadKeysFromMeToWe.cs" />
@@ -1025,6 +1026,8 @@
     <Content Include="Views\CD2021\CD86.Mobile.cshtml" />
     <Content Include="Views\Sayings2021\Sayings27.cshtml" />
     <Content Include="Views\Sayings2021\Sayings27.Mobile.cshtml" />
+    <Content Include="Views\Books\Economics.Mobile.cshtml" />
+    <Content Include="Views\Books\Economics.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
