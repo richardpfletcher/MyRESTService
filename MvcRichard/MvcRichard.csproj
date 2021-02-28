@@ -244,6 +244,7 @@
     <Compile Include="Factory\LoadKeysDeath.cs" />
     <Compile Include="Factory\LoadKeysDragons.cs" />
     <Compile Include="Factory\LoadKeysDreams.cs" />
+    <Compile Include="Factory\LoadKeysDreamTime.cs" />
     <Compile Include="Factory\LoadKeysEconomics.cs" />
     <Compile Include="Factory\LoadKeysFamily.cs" />
     <Compile Include="Factory\LoadKeysFractal.cs" />
@@ -771,6 +772,8 @@
     <Content Include="Views\CD2021\CD84.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD85.cshtml" />
     <Content Include="Views\CD2021\CD85.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD86.cshtml" />
+    <Content Include="Views\CD2021\CD86.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1022,12 +1025,14 @@
     <Content Include="Views\Shared\SearchView.cshtml" />
     <Content Include="Views\Books\MysticalAdventures.Mobile.cshtml" />
     <Content Include="Views\Books\MysticalAdventures.cshtml" />
-    <Content Include="Views\CD2021\CD86.cshtml" />
-    <Content Include="Views\CD2021\CD86.Mobile.cshtml" />
     <Content Include="Views\Sayings2021\Sayings27.cshtml" />
     <Content Include="Views\Sayings2021\Sayings27.Mobile.cshtml" />
     <Content Include="Views\Books\Economics.Mobile.cshtml" />
     <Content Include="Views\Books\Economics.cshtml" />
+    <Content Include="Views\CD2021\CD87.cshtml" />
+    <Content Include="Views\CD2021\CD87.Mobile.cshtml" />
+    <Content Include="Views\Books\DreamTime.Mobile.cshtml" />
+    <Content Include="Views\Books\DreamTime.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
