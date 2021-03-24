@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcRichard", "MvcRichard\MvcRichard.csproj", "{6BBBA945-3E3E-4BFB-8CD2-1C7452E57EF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcRichard1", "MvcRichard\MvcRichard1.csproj", "{6BBBA945-3E3E-4BFB-8CD2-1C7452E57EF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolutionWebApi", "EvolutionWebApi\EvolutionWebApi.csproj", "{99EC42B8-585C-4093-AC25-0521DA35DF03}"
 EndProject
@@ -66,6 +66,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCCB520C-9A47-4F24-9FAB-3FDA0A4E13C5}
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True

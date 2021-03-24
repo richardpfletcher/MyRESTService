@@ -29,6 +29,28 @@ namespace MvcRichard.Factory
         }
     }
 
+    public class categoryall
+    {
+        public string RECEIPTNO { get; set; }
+        public string Title { get; set; }
+        public string Comments { get; set; }
+        public string Picture { get; set; }
+
+        public string url { get; set; }
+    }
+
+    public class CategoryListall
+    {
+        [XmlArray("categoryall")]
+        [XmlArrayItem("categoryall")]
+        public List<categoryall> categoryListsall { get; set; }
+        public CategoryListall()
+        {
+            categoryListsall = new List<categoryall>();
+        }
+    }
+
+
 
 
 
@@ -95,6 +117,12 @@ namespace MvcRichard.Factory
         }
 
         public IList AddCategoryList(CategoryList list)
+        {
+            data.Add(list);
+            return data;
+        }
+
+        public IList AddCategoryListAll(CategoryListall list)
         {
             data.Add(list);
             return data;

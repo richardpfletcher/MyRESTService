@@ -1,0 +1,292 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+<head>
+
+
+
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>*@
+    @*<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>*@
+
+    <link href="~/Content/Site.css?seed=6" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="~/Scripts/slippry.min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="~/Content/slippry.css" />
+
+
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+
+            jQuery('selector').slippry()
+
+            var demo1 = $("#demo1").slippry({
+                //transition: 'fade',
+                transition: 'horizontal',
+                useCSS: true,
+                //speed: 1000,
+                speed: 5000,
+                pause: 6000,
+                pager: false,
+                auto: true,
+                preload: 'visible',
+
+                // transitions
+                //transition: 'kenburns', // fade, horizontal, kenburns, false
+                kenZoom: 140,
+                speed: 2000 // time the transition takes (ms)
+
+
+
+            });
+
+            $('.init').click(function () {
+                demo1 = $("#demo1").slippry();
+                return false;
+            });
+
+
+
+
+        });
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        function GetTopic() {
+
+            var e = document.getElementById("Category");
+            var value = e.options[e.selectedIndex].value;
+            var text = e.options[e.selectedIndex].text;
+            id = value;
+            //alert(value);
+
+            var procemessage = "<option value='0'> Please wait...</option>";
+            $("#ddlTitle").html(procemessage).show();
+            var url = "/Search/GetTitle";
+
+            //document.getElementById('labelSubTopic').style.display = "block";
+            //document.getElementById('dropSubTopi').style.display = "block";
+            //document.getElementById('showSubtopic').value = true;
+
+
+
+
+
+            //$.ajax({
+            //    url: url,
+            //    data: { id: id },
+            //    cache: false,
+            //    type: "POST",
+            //    success: function (data) {
+
+
+            //        var markup = "<option value='0'>Please Select one</option>";
+            //        for (var x = 0; x < data.length; x++) {
+            //            markup += "<option value=" + data[x].Value + ">" + data[x].Text + "</option>";
+
+
+            //        }
+            //        $("#ddlTitle").html(markup).show();
+
+            //    },
+            //    error: function (reponse) {
+            //        alert("error : " + reponse);
+            //    }
+            //});
+
+            //document.getElementById("search1").submit();
+
+            return;
+
+        }
+    </script>
+
+
+
+    <p class="site-title">@Html.ActionLink("evolutionrevolutionoflove", "Index", "Home")</p>
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<div>
+
+    @using (Html.BeginForm("SlideFinal", "Search", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+
+    <table >
+        <tr>
+            <td>
+                @Html.Label("1.Category")
+            </td>
+            @*<td>
+
+                @Html.Label("2: " + "Sub Topic", new { id = "labelSubTopic", @style = "width:200px;" })
+
+            </td>*@
+
+            <td>
+
+                @Html.Label("2: " + "Theme", new { id = "labeltheme", @style = "width:200px;" })
+
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+
+                @Html.DropDownList("Category", (IEnumerable<SelectListItem>)ViewData["CategoryData"], new { @style = "width:100px;", @onchange = "GetTopic();" })
+            </td>
+
+                    <!--<td>-->
+
+                @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;", @onchange = "javascript:GetTopic1();" })*@
+                @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;"  })*@
+
+
+            <!--</td>-->
+       
+            
+            
+            <td>
+
+                @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;", @onchange = "javascript:GetTopic1();" })*@
+                @Html.DropDownList("Theme", (IEnumerable<SelectListItem>)ViewData["themeData"], new { id = "dropTheme", @style = "width:200px;"  })
+
+
+            </td>
+        </tr>
+
+     
+
+        @*<tr>
+            <td>
+                @Html.Label("Content")
+            </td>
+
+        </tr>
+        <tr>
+
+            <td>
+                @Html.DropDownList("contentAll", (IEnumerable<SelectListItem>)ViewData["contentAll"])
+            </td>
+        </tr>*@
+
+
+    </table>
+
+        <input type="submit" id="SaveChanges" value="Publish" />
+
+        <input type="hidden" id="ContentID" name="ContentID" value="1" />
+
+
+    }
+</div>
+
+
+
+<div style="width: 100%">
+    <ul id="demo1">
+        @*<ul>*@
+
+
+
+        @try
+        {
+
+            string title = "hello";
+            int iRow = 0;
+
+            List<MvcRichard.Factory.CategoryListall> myList = new List<MvcRichard.Factory.CategoryListall>();
+            MvcRichard.Factory.CategoryListall list = new MvcRichard.Factory.CategoryListall();
+            list = ViewData["MyFavortiesData"] as MvcRichard.Factory.CategoryListall;
+            //MvcRichard.Factory.LogEntry myLog = new MvcRichard.Factory.LogEntry();
+            string ur11 = "https://evolutionrevolutionoflove";
+
+            //myLog.Log("inside web page");
+            for (int i = 0; i < list.categoryListsall.Count; i++)
+            {
+
+                int page = i + 1;
+
+                title = list.categoryListsall[i].Title;
+
+
+
+                string link1 = "";
+
+                if (list.categoryListsall[i].url != null)
+                {
+
+                    link1 = "https://evolutionrevolutionoflove.com" + @list.categoryListsall[i].url;
+
+                    //link1 =@list.categoryListsall[i].url;
+                }
+                else
+                {
+                    link1 = "https://evolutionrevolutionoflove.com";
+                }
+
+
+
+                string imagePath = list.categoryListsall[i].Picture;
+
+
+                <li>
+
+                    <br />
+
+
+                    @*<h2 style="color:white;"> @page: @title &nbsp;&nbsp;&nbsp;&nbsp; <label style="color:blue;"> </label></h2>*@
+
+                    @*<h2>@title</h2>*@
+
+                    <a href="@link1">
+
+
+
+                        <img src="@imagePath" style="max-width: 100%; max-height: 100%" />
+
+
+                    </a>
+
+
+
+                </li>
+
+
+
+            }
+
+
+
+
+        }
+        catch (Exception ex)
+        {
+            Console.Write(ex.ToString());
+            //myLog.Log(ex.ToString());
+
+        }
+
+
+    </ul>
+</div>
+
+
+

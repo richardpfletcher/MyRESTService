@@ -134,28 +134,6 @@ namespace EvolutionWebApi.Factory
 
 
 
-        //response response = new response();
-        //response.result = 0;
-        //ProductCertificatesList list = new ProductCertificatesList();
-        //productCertificate myprod = new productCertificate();
-        //myprod.accreditation = "CME";
-        //myprod.releaseDate = "4/1/2016";
-        //myprod.expirtationDate = "4/1/2019";
-        //list.productCertificates.Add(myprod);
-
-        //myprod.accreditation = "CNE(ANCC)";
-        //myprod.releaseDate = "4/13/2011";
-        //myprod.expirtationDate = "12/31/2014";
-        //list.productCertificates.Add(myprod);
-
-
-
-
-        //response.AddProductCertificatesList(list);
-        //return response;
-
-    //}
-
 
     }
 }
