@@ -29,7 +29,7 @@ namespace MvcRichard.Controllers
 
         public ActionResult GetTitle(int id)
         {
-            LogEntry("GetTitle"+id);
+            //LogEntry("GetTitle"+id);
             return View();
         }
 
@@ -42,6 +42,9 @@ namespace MvcRichard.Controllers
             //string contentAll = base.Request.Form["contentAll"];
             string Theme = base.Request.Form["Theme"];
 
+            //string contentAll = base.Request.Form["contentAll"];
+            //Session["contentAll"] = contentAll;
+            //LogEntry("contentAll" + contentAll);
 
             string mode = "save";
             Session["Mode"] = mode;
@@ -59,8 +62,8 @@ namespace MvcRichard.Controllers
             }
             Session["modeTheme"] = modeTheme;
 
-            LogEntry("slideFinal");
-            LogEntry("modeCategory"+ modeCategory);
+           //LogEntry("slideFinal");
+            //LogEntry("modeCategory"+ modeCategory);
             
 
 
@@ -138,7 +141,7 @@ namespace MvcRichard.Controllers
                     int iTheme = Convert.ToInt16(themeAll);
 
                     items1 = myGetLookups.GetAll(iContent, iTheme);
-                    LogEntry("Slideshow modeCategory" + iContent);
+                    //LogEntry("Slideshow modeCategory" + iContent);
 
                     for (int i = 0; i < model.items.Count(); i++)
                     {
@@ -166,7 +169,7 @@ namespace MvcRichard.Controllers
             List<CategoryListall> myList = new List<CategoryListall>();
             CategoryListall list = new CategoryListall();
 
-                LogEntry("We found "+ MyFavoritesModel.categoryListsall.Count);//replace with something like Serilog
+               // LogEntry("We found "+ MyFavoritesModel.categoryListsall.Count);//replace with something like Serilog
 
                 for (int i = 0; i < MyFavoritesModel.categoryListsall.Count; i++)
             {
@@ -180,7 +183,7 @@ namespace MvcRichard.Controllers
             }
 
                 ViewData["MyFavortiesData"] = list;
-                LogEntry("calling view");
+                //LogEntry("calling view");
 
             }
             catch (Exception ex)
@@ -195,6 +198,8 @@ namespace MvcRichard.Controllers
 
             string[] content = { "PDF", "Audio"};
 
+            string content1 = "";
+
 
             for (int i = 0; i < content.Length; i++)
             {
@@ -202,7 +207,35 @@ namespace MvcRichard.Controllers
                 modelContent.items.Add(new SelectListItem { Text = content[i], Value = content[i] });
             }
 
-            ViewData["contentAll"] = modelContent.items;
+            //try
+            //{
+            //    content1 = Session["contentAll"] as string;
+            //    LogEntry("contentAll !!!!"+content1);
+
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    content1 = "";
+            //}
+
+            //for (int i = 0; i < modelContent.items.Count(); i++)
+            //{
+
+            //    //modelDish.items[i].Value
+
+            //    string check = modelContent.items[i].Text;
+
+            //    if (check == content1)
+            //    {
+            //        modelContent.items[i].Selected = true;
+            //        LogEntry("Found !!!!");
+            //    }
+
+            //}
+
+
+            //ViewData["contentAll"] = modelContent.items;
 
             GetLookups myGetTheme = new GetLookups();
             DropdownModel modelTheme = new DropdownModel();

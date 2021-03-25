@@ -75,8 +75,8 @@ namespace MvcRichard.Factory
             try
             {
 
-                LogEntry("Theme"+theme);
-                LogEntry("category" + category);
+                //LogEntry("Theme"+theme);
+                //LogEntry("category" + category);
 
                 var dataTable = new DataTable();
             dataTable = new DataTable { TableName = "Album" };

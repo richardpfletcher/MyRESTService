@@ -135,15 +135,19 @@
             </td>
             @*<td>
 
-                @Html.Label("2: " + "Sub Topic", new { id = "labelSubTopic", @style = "width:200px;" })
+            @Html.Label("2: " + "Sub Topic", new { id = "labelSubTopic", @style = "width:200px;" })
 
-            </td>*@
+        </td>*@
 
             <td>
 
                 @Html.Label("2: " + "Theme", new { id = "labeltheme", @style = "width:200px;" })
 
             </td>
+
+            @*<td>
+                @Html.Label("Content")
+            </td>*@
 
         </tr>
         <tr>
@@ -153,40 +157,28 @@
                 @Html.DropDownList("Category", (IEnumerable<SelectListItem>)ViewData["CategoryData"], new { @style = "width:100px;", @onchange = "GetTopic();" })
             </td>
 
-                    <!--<td>-->
-
-                @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;", @onchange = "javascript:GetTopic1();" })*@
-                @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;"  })*@
+            <!--<td>-->
+            @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;", @onchange = "javascript:GetTopic1();" })*@
+            @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;"  })*@
 
 
             <!--</td>-->
-       
-            
-            
+
+
+
             <td>
 
-                @*@Html.DropDownList("ddlTitle", (IEnumerable<SelectListItem>)ViewData["titleData"], new { id = "dropSubTopi", @style = "width:200px;", @onchange = "javascript:GetTopic1();" })*@
-                @Html.DropDownList("Theme", (IEnumerable<SelectListItem>)ViewData["themeData"], new { id = "dropTheme", @style = "width:200px;"  })
+              
+                @Html.DropDownList("Theme", (IEnumerable<SelectListItem>)ViewData["themeData"], new { id = "dropTheme", @style = "width:200px;" })
 
 
             </td>
+            @*<td>
+                @Html.DropDownList("contentAll", (IEnumerable<SelectListItem>)ViewData["contentAll"])
+            </td>*@
         </tr>
 
      
-
-        @*<tr>
-            <td>
-                @Html.Label("Content")
-            </td>
-
-        </tr>
-        <tr>
-
-            <td>
-                @Html.DropDownList("contentAll", (IEnumerable<SelectListItem>)ViewData["contentAll"])
-            </td>
-        </tr>*@
-
 
     </table>
 
@@ -218,6 +210,8 @@
             //MvcRichard.Factory.LogEntry myLog = new MvcRichard.Factory.LogEntry();
             string ur11 = "https://evolutionrevolutionoflove";
 
+
+
             //myLog.Log("inside web page");
             for (int i = 0; i < list.categoryListsall.Count; i++)
             {
@@ -225,17 +219,35 @@
                 int page = i + 1;
 
                 title = list.categoryListsall[i].Title;
+                string pictureURL = list.categoryListsall[i].Picture;
+                pictureURL = pictureURL.Substring(0, pictureURL.Length - 10);
 
+                //string content1 = Session["contentAll"] as string;
 
+                //string contentURL = "";
 
                 string link1 = "";
+
+
+                //if (content1 == "Audio")
+                //{
+                //    link1 = "https://evolutionrevolutionoflove.com" + pictureURL;
+                //}
+                //else
+                //{
+
+                //    link1 = "https://evolutionrevolutionoflove.com" + @list.categoryListsall[i].url;
+                //}
+
+
+
 
                 if (list.categoryListsall[i].url != null)
                 {
 
                     link1 = "https://evolutionrevolutionoflove.com" + @list.categoryListsall[i].url;
 
-                    //link1 =@list.categoryListsall[i].url;
+
                 }
                 else
                 {
@@ -247,14 +259,14 @@
                 string imagePath = list.categoryListsall[i].Picture;
 
 
-                <li>
+            <li>
 
-                    <br />
+               
 
 
                     @*<h2 style="color:white;"> @page: @title &nbsp;&nbsp;&nbsp;&nbsp; <label style="color:blue;"> </label></h2>*@
 
-                    @*<h2>@title</h2>*@
+                    <h2>Click on image to see the PDF.</h2>
 
                     <a href="@link1">
 
@@ -267,22 +279,22 @@
 
 
 
-                </li>
+                    </li>
+
+
+
+                }
+
 
 
 
             }
+            catch (Exception ex)
+            {
+                Console.Write(ex.ToString());
+                //myLog.Log(ex.ToString());
 
-
-
-
-        }
-        catch (Exception ex)
-        {
-            Console.Write(ex.ToString());
-            //myLog.Log(ex.ToString());
-
-        }
+            }
 
 
     </ul>
