@@ -1,5 +1,9 @@
-﻿@{
-    ViewBag.Title = "Laws";
+﻿
+
+
+
+@{
+    ViewBag.Title = "CD.Mobile";
 }
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,16 +16,17 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-8">
-            
-             <div>
-                <img src="\Audio\Books\DreamTime\album.jpg" style="width:300px;height:300px;" alt="album" >
+        <div class="col-sm-12">
+
+            <div>
+                <img src="\Audio\CD\CD89\album.jpg" style="width:300px;height:300px;" alt="album">
 
             </div>
-            
+
             <div>
-                @*need to enter google drvie for this document*@
-                <a href="https://evolutionrevolutionoflove.com/PDF/Books/DreamTime/DreamTime.pdf">Click to Open PDF </a>
+
+                @* <a href="\PDF\CD\beautifulday.pdf" target="_blank">Click to Open PDF </a>*@
+                <a href="https://evolutionrevolutionoflove.com/PDF/CD/CD89.pdf">Click to Open PDF </a>
             </div>
 
             <p></p>
@@ -33,11 +38,12 @@
                    in (List<MvcRichard.Models.DocumentModel>)ViewData["orderData"])
                 {
 
-                <div>
-                    <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
-                </div>
-                <p></p>
+                    <div>
+                        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+                    </div>
+                    <p></p>
                 }
+
             }
             catch
             {

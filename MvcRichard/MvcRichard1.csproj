@@ -271,6 +271,7 @@
     <Compile Include="Factory\LoadKeysPandora.cs" />
     <Compile Include="Factory\LoadKeysPolitics.cs" />
     <Compile Include="Factory\LoadKeysQuantum.cs" />
+    <Compile Include="Factory\LoadKeysRumi.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
     <Compile Include="Factory\LoadKeysSparkTales.cs" />
     <Compile Include="Factory\LoadKeysStarDust.cs" />
@@ -686,8 +687,6 @@
     <Content Include="Views\Books\TheWay.Mobile.cshtml" />
     <Content Include="Views\Books\Universe.cshtml" />
     <Content Include="Views\Books\Universe.Mobile.cshtml" />
-    <Content Include="Views\Books\Yoga.cshtml" />
-    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -780,6 +779,8 @@
     <Content Include="Views\CD2021\CD86.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD87.cshtml" />
     <Content Include="Views\CD2021\CD87.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD88.cshtml" />
+    <Content Include="Views\CD2021\CD88.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1037,9 +1038,11 @@
     <Content Include="Views\Books\Economics.cshtml" />
     <Content Include="Views\Books\DreamTime.Mobile.cshtml" />
     <Content Include="Views\Books\DreamTime.cshtml" />
-    <Content Include="Views\CD2021\CD88.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD88.cshtml" />
     <Content Include="Views\Search\slideshow.cshtml" />
+    <Content Include="Views\CD2021\CD89.cshtml" />
+    <Content Include="Views\CD2021\CD89.Mobile.cshtml" />
+    <Content Include="Views\Books\Rumi.Mobile.cshtml" />
+    <Content Include="Views\Books\Rumi.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
