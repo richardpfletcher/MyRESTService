@@ -781,6 +781,8 @@
     <Content Include="Views\CD2021\CD87.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD88.cshtml" />
     <Content Include="Views\CD2021\CD88.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD89.cshtml" />
+    <Content Include="Views\CD2021\CD89.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1039,10 +1041,10 @@
     <Content Include="Views\Books\DreamTime.Mobile.cshtml" />
     <Content Include="Views\Books\DreamTime.cshtml" />
     <Content Include="Views\Search\slideshow.cshtml" />
-    <Content Include="Views\CD2021\CD89.cshtml" />
-    <Content Include="Views\CD2021\CD89.Mobile.cshtml" />
     <Content Include="Views\Books\Rumi.Mobile.cshtml" />
     <Content Include="Views\Books\Rumi.cshtml" />
+    <Content Include="Views\CD2021\CD90.cshtml" />
+    <Content Include="Views\CD2021\CD90.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
