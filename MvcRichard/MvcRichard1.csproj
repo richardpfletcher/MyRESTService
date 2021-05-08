@@ -1043,8 +1043,8 @@
     <Content Include="Views\Search\slideshow.cshtml" />
     <Content Include="Views\Books\Rumi.Mobile.cshtml" />
     <Content Include="Views\Books\Rumi.cshtml" />
-    <Content Include="Views\CD2021\CD90.cshtml" />
-    <Content Include="Views\CD2021\CD90.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD91.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD91.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
