@@ -10,18 +10,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<div class="container">
+<div class="page-wrapper">
+
     <div class="row">
-        <div class="col-sm-12 col-md-8">
+        <div class="col-sm-6">
             
              <div>
-                 <img src="\Audio\Books\Dragons2\album.jpg" style="width:300px;height:300px;" alt="album">
+                <img src="\Audio\Books\Recalibration\album.jpg" style="width:300px;height:300px;" alt="album" >
 
             </div>
             
             <div>
-                @*need to enter google drvie for this document*@
-                <a href="https://evolutionrevolutionoflove.com/PDF/Books/Dragons2/Dragons2.pdf">Click to Open PDF </a>
+
+                <a href="\PDF\Books\Recalibration\Recalibration.pdf" target="_blank">Click to Open PDF </a>
             </div>
 
             <p></p>
@@ -34,14 +35,29 @@
                 {
 
                 <div>
-                    <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+                    <div>
+                        @order.ShortName
+                    </div>
+                    <div>
+                        <audio controls>
+
+                            <source src="@order.PathName" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
                 </div>
-                <p></p>
                 }
             }
             catch
             {
             }
+        </div>
+        <div class="col-sm-6">
+            <div>
+                <object data="\PDF\Books\Recalibration\Recalibration.pdf" width="700" height="800" type="application/pdf">
+                    alt : <a href="\PDF\Books\Recalibration\Recalibration.pdf">You are the Recalibration</a>
+                </object>
+            </div>
         </div>
     </div>
 </div>

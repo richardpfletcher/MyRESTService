@@ -271,6 +271,7 @@
     <Compile Include="Factory\LoadKeysPandora.cs" />
     <Compile Include="Factory\LoadKeysPolitics.cs" />
     <Compile Include="Factory\LoadKeysQuantum.cs" />
+    <Compile Include="Factory\LoadKeysRecalibration.cs" />
     <Compile Include="Factory\LoadKeysRumi.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
     <Compile Include="Factory\LoadKeysSparkTales.cs" />
@@ -677,6 +678,8 @@
     <Content Include="Views\Books\Politics.Mobile.cshtml" />
     <Content Include="Views\Books\Quantum.cshtml" />
     <Content Include="Views\Books\Quantum.Mobile.cshtml" />
+    <Content Include="Views\Books\Rumi.cshtml" />
+    <Content Include="Views\Books\Rumi.Mobile.cshtml" />
     <Content Include="Views\Books\StarDust.cshtml" />
     <Content Include="Views\Books\StarDust.Mobile.cshtml" />
     <Content Include="Views\Books\Surfing.cshtml" />
@@ -1041,10 +1044,10 @@
     <Content Include="Views\Books\DreamTime.Mobile.cshtml" />
     <Content Include="Views\Books\DreamTime.cshtml" />
     <Content Include="Views\Search\slideshow.cshtml" />
-    <Content Include="Views\Books\Rumi.Mobile.cshtml" />
-    <Content Include="Views\Books\Rumi.cshtml" />
     <Content Include="Views\CD2021\CD91.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD91.cshtml" />
+    <Content Include="Views\Books\Recalibration.cshtml" />
+    <Content Include="Views\Books\Recalibration.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
