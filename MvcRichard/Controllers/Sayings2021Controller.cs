@@ -1,8 +1,9 @@
-﻿using System;
+﻿using MvcRichard.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Web.Mvc;
-using MvcRichard.Models;
+using MvcRichard.Factory;
 
 namespace MvcRichard.Controllers
 {
@@ -27,7 +28,7 @@ namespace MvcRichard.Controllers
                 string shortname = fullname.Substring(0, fullname.Length - 4);
                 if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
-                    list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Sayings\\Sayings25\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Sayings/Sayings27/" + fullname));
+                    list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Sayings\\Sayings27\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Sayings/Sayings27/" + fullname));
                 }
             }
 

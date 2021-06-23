@@ -239,6 +239,7 @@
     <Compile Include="Factory\LoadKeysActions.cs" />
     <Compile Include="Factory\LoadKeysAuto.cs" />
     <Compile Include="Factory\LoadKeysBrokenRecord.cs" />
+    <Compile Include="Factory\LoadKeysChemist.cs" />
     <Compile Include="Factory\LoadKeysCloudy.cs" />
     <Compile Include="Factory\LoadKeysCorona.cs" />
     <Compile Include="Factory\LoadKeysCreative.cs" />
@@ -690,6 +691,8 @@
     <Content Include="Views\Books\TheWay.Mobile.cshtml" />
     <Content Include="Views\Books\Universe.cshtml" />
     <Content Include="Views\Books\Universe.Mobile.cshtml" />
+    <Content Include="Views\Books\WhoAmI.cshtml" />
+    <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -1006,8 +1009,6 @@
     <Content Include="Views\Books\Creative.Mobile.cshtml" />
     <Content Include="Views\Books\KnowthySelf.cshtml" />
     <Content Include="Views\Books\KnowthySelf.Mobile.cshtml" />
-    <Content Include="Views\Books\WhoAmI.cshtml" />
-    <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
     <Content Include="Views\Books\Tricks.Mobile.cshtml" />
     <Content Include="Views\Books\Tricks.cshtml" />
     <Content Include="Views\Sayings2020\Sayings26.Mobile.cshtml" />
@@ -1050,6 +1051,8 @@
     <Content Include="Views\Books\Recalibration.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD92.cshtml" />
     <Content Include="Views\CD2021\CD92.Mobile.cshtml" />
+    <Content Include="Views\Books\Chemist.Mobile.cshtml" />
+    <Content Include="Views\Books\Chemist.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
