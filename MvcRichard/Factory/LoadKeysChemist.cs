@@ -101,7 +101,40 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Disengage"));
             list.Add(new BookModel(counter++, "Art Of Practice And Creativity" ));
 
-            
+            list.Add(new BookModel(counter++, "Old self and new self"));
+
+
+
+            list.Add(new BookModel(counter++, "Your actions create your own future"));
+
+            list.Add(new BookModel(counter++, "Rehearsing"));
+            list.Add(new BookModel(counter++, ""));
+            list.Add(new BookModel(counter++, "People see the future through the lenses of the past"));
+
+            list.Add(new BookModel(counter++, "Lower the audio of a negative emotion"));
+
+            list.Add(new BookModel(counter++, "Are You Curious or Dull About Life"));
+
+            list.Add(new BookModel(counter++, "Transcendental"));
+
+            list.Add(new BookModel(counter++, "Memory without emotional charge is called wisdom"));
+
+            list.Add(new BookModel(counter++, "Nerve cells that fire together wire together"));
+
+            list.Add(new BookModel(counter++, "You can turn on the stress control by your thoughts alone"));
+
+            list.Add(new BookModel(counter++, "Modify our behaviors reprogram the mind"));
+
+            list.Add(new BookModel(counter++, "Observe vs participate"));
+
+            list.Add(new BookModel(counter++, "The Mind is the brain in action"));
+
+            list.Add(new BookModel(counter++, "Behaviors to match the intention"));
+            list.Add(new BookModel(counter++, "Closing"));
+
+
+
+
 
 
 
