@@ -130,6 +130,24 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "The Mind is the brain in action"));
 
             list.Add(new BookModel(counter++, "Behaviors to match the intention"));
+
+            list.Add(new BookModel(counter++, "BMemorize and act consciously over and over again"));
+
+
+
+            list.Add(new BookModel(counter++, "BVictim of your environment"));
+
+            list.Add(new BookModel(counter++, "BNegative Energy of the past"));
+
+            list.Add(new BookModel(counter++, "BNobody changes until you change your energy"));
+
+            list.Add(new BookModel(counter++, "BYour body is your subconscious mind"));
+
+            list.Add(new BookModel(counter++, "BBeing a victim vs being a creator"));
+
+            list.Add(new BookModel(counter++, "BNon - Placebo effect"));
+
+            list.Add(new BookModel(counter++, "BHabits take at least three weeks"));
             list.Add(new BookModel(counter++, "Closing"));
 
 
