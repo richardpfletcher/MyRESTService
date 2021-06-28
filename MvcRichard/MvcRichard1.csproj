@@ -791,6 +791,8 @@
     <Content Include="Views\CD2021\CD89.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD91.cshtml" />
     <Content Include="Views\CD2021\CD91.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD92.cshtml" />
+    <Content Include="Views\CD2021\CD92.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1049,10 +1051,10 @@
     <Content Include="Views\Search\slideshow.cshtml" />
     <Content Include="Views\Books\Recalibration.cshtml" />
     <Content Include="Views\Books\Recalibration.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD92.cshtml" />
-    <Content Include="Views\CD2021\CD92.Mobile.cshtml" />
     <Content Include="Views\Books\Chemist.Mobile.cshtml" />
     <Content Include="Views\Books\Chemist.cshtml" />
+    <Content Include="Views\CD2021\CD93.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD93.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
