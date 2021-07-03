@@ -275,6 +275,7 @@
     <Compile Include="Factory\LoadKeysRecalibration.cs" />
     <Compile Include="Factory\LoadKeysRumi.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
+    <Compile Include="Factory\LoadKeysSound.cs" />
     <Compile Include="Factory\LoadKeysSparkTales.cs" />
     <Compile Include="Factory\LoadKeysStarDust.cs" />
     <Compile Include="Factory\LoadKeysStorytelling.cs" />
@@ -1055,6 +1056,8 @@
     <Content Include="Views\Books\Chemist.cshtml" />
     <Content Include="Views\CD2021\CD93.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD93.cshtml" />
+    <Content Include="Views\Books\Sound.Mobile.cshtml" />
+    <Content Include="Views\Books\Sound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
