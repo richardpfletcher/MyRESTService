@@ -69,13 +69,14 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Five Internal Senses"));
             list.Add(new BookModel(counter++, "Chief Financial Officer"));
 
-            
-
-
-
-
-
-
+            list.Add(new BookModel(counter++, "Board Of Directors"));
+            list.Add(new BookModel(counter++, "Unions"));
+            list.Add(new BookModel(counter++, "Can You Hear The Grass Growing"));
+            list.Add(new BookModel(counter++, "Silence is God's first language"));
+            list.Add(new BookModel(counter++, "God Speaks Thru Silence"));
+            list.Add(new BookModel(counter++, "Silence Speaks To You About The Secrets Of The Universe"));
+            list.Add(new BookModel(counter++, "Silence Quotes"));
+            list.Add(new BookModel(counter++, "Closing"));
 
 
 

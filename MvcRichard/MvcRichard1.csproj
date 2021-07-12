@@ -264,9 +264,11 @@
     <Compile Include="Factory\LoadKeysKabbalah.cs" />
     <Compile Include="Factory\LoadKeysKindness.cs" />
     <Compile Include="Factory\LoadKeysKingdomOfHeavenLiesInside.cs" />
+    <Compile Include="Factory\LoadKeysKnowledge.cs" />
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
+    <Compile Include="Factory\LoadKeysNaropa.cs" />
     <Compile Include="Factory\LoadKeysNonViolence.cs" />
     <Compile Include="Factory\LoadKeysOverTheHil.cs" />
     <Compile Include="Factory\LoadKeysPandora.cs" />
@@ -674,6 +676,8 @@
     <Content Include="Views\Books\Kabbalahl.Mobile.cshtml" />
     <Content Include="Views\Books\Kids.cshtml" />
     <Content Include="Views\Books\Kids.Mobile.cshtml" />
+    <Content Include="Views\Books\Knowledge.cshtml" />
+    <Content Include="Views\Books\Knowledge.Mobile.cshtml" />
     <Content Include="Views\Books\OverTheHill.cshtml" />
     <Content Include="Views\Books\OverTheHill.Mobile.cshtml" />
     <Content Include="Views\Books\Politics.cshtml" />
@@ -682,6 +686,8 @@
     <Content Include="Views\Books\Quantum.Mobile.cshtml" />
     <Content Include="Views\Books\Rumi.cshtml" />
     <Content Include="Views\Books\Rumi.Mobile.cshtml" />
+    <Content Include="Views\Books\Sound.cshtml" />
+    <Content Include="Views\Books\Sound.Mobile.cshtml" />
     <Content Include="Views\Books\StarDust.cshtml" />
     <Content Include="Views\Books\StarDust.Mobile.cshtml" />
     <Content Include="Views\Books\Surfing.cshtml" />
@@ -1054,10 +1060,10 @@
     <Content Include="Views\Books\Recalibration.Mobile.cshtml" />
     <Content Include="Views\Books\Chemist.Mobile.cshtml" />
     <Content Include="Views\Books\Chemist.cshtml" />
-    <Content Include="Views\CD2021\CD93.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD93.cshtml" />
-    <Content Include="Views\Books\Sound.Mobile.cshtml" />
-    <Content Include="Views\Books\Sound.cshtml" />
+    <Content Include="Views\CD2021\CD94.cshtml" />
+    <Content Include="Views\CD2021\CD94.Mobile.cshtml" />
+    <Content Include="Views\Books\Naropa.cshtml" />
+    <Content Include="Views\Books\Naropa.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
