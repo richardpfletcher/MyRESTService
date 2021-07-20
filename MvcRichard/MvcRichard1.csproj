@@ -244,6 +244,7 @@
     <Compile Include="Factory\LoadKeysCorona.cs" />
     <Compile Include="Factory\LoadKeysCreative.cs" />
     <Compile Include="Factory\LoadKeysDeath.cs" />
+    <Compile Include="Factory\LoadKeysDefinition.cs" />
     <Compile Include="Factory\LoadKeysDragons.cs" />
     <Compile Include="Factory\LoadKeysDreams.cs" />
     <Compile Include="Factory\LoadKeysDreamTime.cs" />
@@ -286,6 +287,7 @@
     <Compile Include="Factory\LoadKeysSwan.cs" />
     <Compile Include="Factory\LoadKeysThePhysicsOfSpirituality.cs" />
     <Compile Include="Factory\LoadKeysTheWay.cs" />
+    <Compile Include="Factory\LoadKeysTransformation.cs" />
     <Compile Include="Factory\LoadKeysTricks.cs" />
     <Compile Include="Factory\LoadKeysUniverse.cs" />
     <Compile Include="Factory\LoadKeysWhoAmI.cs" />
@@ -800,6 +802,8 @@
     <Content Include="Views\CD2021\CD91.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD92.cshtml" />
     <Content Include="Views\CD2021\CD92.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD94.cshtml" />
+    <Content Include="Views\CD2021\CD94.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1060,10 +1064,16 @@
     <Content Include="Views\Books\Recalibration.Mobile.cshtml" />
     <Content Include="Views\Books\Chemist.Mobile.cshtml" />
     <Content Include="Views\Books\Chemist.cshtml" />
-    <Content Include="Views\CD2021\CD94.cshtml" />
-    <Content Include="Views\CD2021\CD94.Mobile.cshtml" />
     <Content Include="Views\Books\Naropa.cshtml" />
     <Content Include="Views\Books\Naropa.Mobile.cshtml" />
+    <Content Include="Views\Books\Definition.Mobile.cshtml" />
+    <Content Include="Views\Books\Definition.cshtml" />
+    <Content Include="Views\CD2021\CD93.cshtml" />
+    <Content Include="Views\CD2021\CD93.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD95.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD95.cshtml" />
+    <Content Include="Views\Books\Transformation.cshtml" />
+    <Content Include="Views\Books\Transformation.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

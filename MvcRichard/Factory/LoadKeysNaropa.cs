@@ -46,6 +46,12 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Infinite Ocean Of Blue Meanies"));
             list.Add(new BookModel(counter++, "Sai Baba Dream"));
             list.Add(new BookModel(counter++, "Crystal Clear"));
+            list.Add(new BookModel(counter++, "You are never alone 1"));
+            list.Add(new BookModel(counter++, "You are never alone"));
+            list.Add(new BookModel(counter++, "Rūpāstha Dhyāna"));
+            list.Add(new BookModel(counter++, "Board Of Directors"));
+
+            
 
         }
 
