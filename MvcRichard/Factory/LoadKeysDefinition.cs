@@ -55,6 +55,40 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Generator, Operator, Destroyer"));
             list.Add(new BookModel(counter++, "Forgive"));
             list.Add(new BookModel(counter++, "Ego"));
+            list.Add(new BookModel(counter++, "Intention"));
+            list.Add(new BookModel(counter++, "Contact"));
+            list.Add(new BookModel(counter++, "Feeling"));
+            list.Add(new BookModel(counter++, "Aspiration"));
+            list.Add(new BookModel(counter++, "Resolve"));
+            list.Add(new BookModel(counter++, "Shame"));
+            list.Add(new BookModel(counter++, "Consideration"));
+            list.Add(new BookModel(counter++, "Non-hatred"));
+            list.Add(new BookModel(counter++, "Non-ignorance"));
+            list.Add(new BookModel(counter++, "Diligence"));
+            list.Add(new BookModel(counter++, "Pliancy"));
+            list.Add(new BookModel(counter++, "Conscientiousness"));
+            list.Add(new BookModel(counter++, "Non-harmfulness"));
+            list.Add(new BookModel(counter++, "Aggression"));
+            list.Add(new BookModel(counter++, "Vindictiveness"));
+            list.Add(new BookModel(counter++, "Concealment"));
+            list.Add(new BookModel(counter++, "Spite"));
+            list.Add(new BookModel(counter++, "Jealousy"));
+            list.Add(new BookModel(counter++, "Miserliness"));
+            list.Add(new BookModel(counter++, "Pretension"));
+            list.Add(new BookModel(counter++, "Haughtiness"));
+            list.Add(new BookModel(counter++, "Harmfulness"));
+            list.Add(new BookModel(counter++, "Shamelessness"));
+            list.Add(new BookModel(counter++, "Dullness"));
+            list.Add(new BookModel(counter++, "Afflictive"));
+            list.Add(new BookModel(counter++, "Non - faith"));
+            list.Add(new BookModel(counter++, "Forgetfulness"));
+            list.Add(new BookModel(counter++, "Laziness"));
+            list.Add(new BookModel(counter++, "Non-conscientiousness"));
+            list.Add(new BookModel(counter++, "Distraction"));
+            list.Add(new BookModel(counter++, "Regret"));
+            list.Add(new BookModel(counter++, "Investigation"));
+            list.Add(new BookModel(counter++, "Analysis"));
+
 
 
         }

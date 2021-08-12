@@ -270,6 +270,7 @@
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
     <Compile Include="Factory\LoadKeysNaropa.cs" />
+    <Compile Include="Factory\LoadKeysNaropaCommentary.cs" />
     <Compile Include="Factory\LoadKeysNonViolence.cs" />
     <Compile Include="Factory\LoadKeysOverTheHil.cs" />
     <Compile Include="Factory\LoadKeysPandora.cs" />
@@ -662,8 +663,6 @@
     <Content Include="Views\Books\Death.Mobile.cshtml" />
     <Content Include="Views\Books\Dragons2.cshtml" />
     <Content Include="Views\Books\Dragons2.Mobile.cshtml" />
-    <Content Include="Views\Books\Gaia.cshtml" />
-    <Content Include="Views\Books\Gaia.Mobile.cshtml" />
     <Content Include="Views\Books\Garden.cshtml" />
     <Content Include="Views\Books\Garden.Mobile.cshtml" />
     <Content Include="Views\Books\Happiness.cshtml" />
@@ -804,6 +803,12 @@
     <Content Include="Views\CD2021\CD92.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD94.cshtml" />
     <Content Include="Views\CD2021\CD94.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD95.cshtml" />
+    <Content Include="Views\CD2021\CD95.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD96.cshtml" />
+    <Content Include="Views\CD2021\CD96.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD97.cshtml" />
+    <Content Include="Views\CD2021\CD97.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1070,10 +1075,12 @@
     <Content Include="Views\Books\Definition.cshtml" />
     <Content Include="Views\CD2021\CD93.cshtml" />
     <Content Include="Views\CD2021\CD93.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD95.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD95.cshtml" />
     <Content Include="Views\Books\Transformation.cshtml" />
     <Content Include="Views\Books\Transformation.Mobile.cshtml" />
+    <Content Include="Views\Books\NaropaCommentary.Mobile.cshtml" />
+    <Content Include="Views\Books\NaropaCommentary.cshtml" />
+    <Content Include="Views\CD2021\CD98.cshtml" />
+    <Content Include="Views\CD2021\CD98.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
