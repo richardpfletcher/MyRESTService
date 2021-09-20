@@ -783,6 +783,8 @@
     <Content Include="Views\CD2020\CD80.Mobile.cshtml" />
     <Content Include="Views\CD2020\CD81.cshtml" />
     <Content Include="Views\CD2020\CD81.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD100.cshtml" />
+    <Content Include="Views\CD2021\CD100.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD83.cshtml" />
     <Content Include="Views\CD2021\CD83.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD84.cshtml" />
@@ -809,6 +811,10 @@
     <Content Include="Views\CD2021\CD96.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD97.cshtml" />
     <Content Include="Views\CD2021\CD97.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD98.cshtml" />
+    <Content Include="Views\CD2021\CD98.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD99.cshtml" />
+    <Content Include="Views\CD2021\CD99.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -829,6 +835,10 @@
     <Content Include="Views\Sayings2020\Sayings24.Mobile.cshtml" />
     <Content Include="Views\Sayings2020\Sayings25.cshtml" />
     <Content Include="Views\Sayings2020\Sayings25.Mobile.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings27.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings27.Mobile.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings28.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings28.Mobile.cshtml" />
     <Content Include="Views\Sayings\Sayings15.cshtml" />
     <Content Include="Views\Sayings\Sayings15.Mobile.cshtml" />
     <Content Include="Views\Search\index.cshtml" />
@@ -1058,8 +1068,6 @@
     <Content Include="Views\Shared\SearchView.cshtml" />
     <Content Include="Views\Books\MysticalAdventures.Mobile.cshtml" />
     <Content Include="Views\Books\MysticalAdventures.cshtml" />
-    <Content Include="Views\Sayings2021\Sayings27.cshtml" />
-    <Content Include="Views\Sayings2021\Sayings27.Mobile.cshtml" />
     <Content Include="Views\Books\Economics.Mobile.cshtml" />
     <Content Include="Views\Books\Economics.cshtml" />
     <Content Include="Views\Books\DreamTime.Mobile.cshtml" />
@@ -1079,8 +1087,10 @@
     <Content Include="Views\Books\Transformation.Mobile.cshtml" />
     <Content Include="Views\Books\NaropaCommentary.Mobile.cshtml" />
     <Content Include="Views\Books\NaropaCommentary.cshtml" />
-    <Content Include="Views\CD2021\CD98.cshtml" />
-    <Content Include="Views\CD2021\CD98.Mobile.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings29.Mobile.cshtml" />
+    <Content Include="Views\Sayings2021\Sayings29.cshtml" />
+    <Content Include="Views\CD2021\CD101.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD101.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
