@@ -787,6 +787,8 @@
     <Content Include="Views\CD2021\CD100.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD101.cshtml" />
     <Content Include="Views\CD2021\CD101.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD102.cshtml" />
+    <Content Include="Views\CD2021\CD102.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD83.cshtml" />
     <Content Include="Views\CD2021\CD83.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD84.cshtml" />
@@ -1091,8 +1093,8 @@
     <Content Include="Views\Books\NaropaCommentary.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.Mobile.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.cshtml" />
-    <Content Include="Views\CD2021\CD102.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD102.cshtml" />
+    <Content Include="Views\CD2021\CD103.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD103.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
