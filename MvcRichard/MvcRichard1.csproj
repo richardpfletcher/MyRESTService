@@ -246,6 +246,7 @@
     <Compile Include="Factory\LoadKeysDeath.cs" />
     <Compile Include="Factory\LoadKeysDefinition.cs" />
     <Compile Include="Factory\LoadKeysDragons.cs" />
+    <Compile Include="Factory\LoadKeysDragonsNaropa .cs" />
     <Compile Include="Factory\LoadKeysDreams.cs" />
     <Compile Include="Factory\LoadKeysDreamTime.cs" />
     <Compile Include="Factory\LoadKeysEconomics.cs" />
@@ -286,6 +287,7 @@
     <Compile Include="Factory\LoadKeysSuperBowl.cs" />
     <Compile Include="Factory\LoadKeysSurfing.cs" />
     <Compile Include="Factory\LoadKeysSwan.cs" />
+    <Compile Include="Factory\LoadKeysTeachingsOfTheDragons.cs" />
     <Compile Include="Factory\LoadKeysThePhysicsOfSpirituality.cs" />
     <Compile Include="Factory\LoadKeysTheWay.cs" />
     <Compile Include="Factory\LoadKeysTransformation.cs" />
@@ -791,6 +793,8 @@
     <Content Include="Views\CD2021\CD102.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD103.cshtml" />
     <Content Include="Views\CD2021\CD103.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD104.cshtml" />
+    <Content Include="Views\CD2021\CD104.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD83.cshtml" />
     <Content Include="Views\CD2021\CD83.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD84.cshtml" />
@@ -1095,8 +1099,10 @@
     <Content Include="Views\Books\NaropaCommentary.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.Mobile.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.cshtml" />
-    <Content Include="Views\CD2021\CD104.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD104.cshtml" />
+    <Content Include="Views\CD2021\CD105.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD105.cshtml" />
+    <Content Include="Views\Books\DragonsNaropa.cshtml" />
+    <Content Include="Views\Books\DragonsNaropa.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
