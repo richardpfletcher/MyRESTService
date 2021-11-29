@@ -215,6 +215,7 @@
     <Compile Include="Controllers\CD2019Controller.cs" />
     <Compile Include="Controllers\CD2020Controller.cs" />
     <Compile Include="Controllers\CD2021Controller.cs" />
+    <Compile Include="Controllers\CD2022Controller.cs" />
     <Compile Include="Controllers\CDController.cs" />
     <Compile Include="Controllers\ChannelController.cs" />
     <Compile Include="Controllers\EvolutionController.cs" />
@@ -1099,10 +1100,10 @@
     <Content Include="Views\Books\NaropaCommentary.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.Mobile.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.cshtml" />
-    <Content Include="Views\CD2021\CD105.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD105.cshtml" />
     <Content Include="Views\Books\DragonsNaropa.cshtml" />
     <Content Include="Views\Books\DragonsNaropa.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD105.cshtml" />
+    <Content Include="Views\CD2022\CD105.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
