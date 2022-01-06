@@ -215,7 +215,6 @@
     <Compile Include="Controllers\CD2019Controller.cs" />
     <Compile Include="Controllers\CD2020Controller.cs" />
     <Compile Include="Controllers\CD2021Controller.cs" />
-    <Compile Include="Controllers\CD2022Controller.cs" />
     <Compile Include="Controllers\CDController.cs" />
     <Compile Include="Controllers\ChannelController.cs" />
     <Compile Include="Controllers\EvolutionController.cs" />
@@ -238,7 +237,6 @@
     <Compile Include="Factory\InsertRecords.cs" />
     <Compile Include="Factory\LoadKeys.cs" />
     <Compile Include="Factory\LoadKeysActions.cs" />
-    <Compile Include="Factory\LoadKeysAlchemy.cs" />
     <Compile Include="Factory\LoadKeysAuto.cs" />
     <Compile Include="Factory\LoadKeysBrokenRecord.cs" />
     <Compile Include="Factory\LoadKeysChemist.cs" />
@@ -248,8 +246,6 @@
     <Compile Include="Factory\LoadKeysDeath.cs" />
     <Compile Include="Factory\LoadKeysDefinition.cs" />
     <Compile Include="Factory\LoadKeysDragons.cs" />
-    <Compile Include="Factory\LoadKeysDragonsNaropa .cs" />
-    <Compile Include="Factory\LoadKeysDragonsNaropa2.cs" />
     <Compile Include="Factory\LoadKeysDreams.cs" />
     <Compile Include="Factory\LoadKeysDreamTime.cs" />
     <Compile Include="Factory\LoadKeysEconomics.cs" />
@@ -290,10 +286,8 @@
     <Compile Include="Factory\LoadKeysSuperBowl.cs" />
     <Compile Include="Factory\LoadKeysSurfing.cs" />
     <Compile Include="Factory\LoadKeysSwan.cs" />
-    <Compile Include="Factory\LoadKeysTeachingsOfTheDragons.cs" />
     <Compile Include="Factory\LoadKeysThePhysicsOfSpirituality.cs" />
     <Compile Include="Factory\LoadKeysTheWay.cs" />
-    <Compile Include="Factory\LoadKeysTraining.cs" />
     <Compile Include="Factory\LoadKeysTransformation.cs" />
     <Compile Include="Factory\LoadKeysTricks.cs" />
     <Compile Include="Factory\LoadKeysUniverse.cs" />
@@ -669,10 +663,6 @@
     <Content Include="Views\Books\Death.Mobile.cshtml" />
     <Content Include="Views\Books\Dragons2.cshtml" />
     <Content Include="Views\Books\Dragons2.Mobile.cshtml" />
-    <Content Include="Views\Books\DragonsNaropa.cshtml" />
-    <Content Include="Views\Books\DragonsNaropa.Mobile.cshtml" />
-    <Content Include="Views\Books\DragonsNaropa2.cshtml" />
-    <Content Include="Views\Books\DragonsNaropa2.Mobile.cshtml" />
     <Content Include="Views\Books\Garden.cshtml" />
     <Content Include="Views\Books\Garden.Mobile.cshtml" />
     <Content Include="Views\Books\Happiness.cshtml" />
@@ -705,8 +695,6 @@
     <Content Include="Views\Books\Surfing.Mobile.cshtml" />
     <Content Include="Views\Books\Swan.cshtml" />
     <Content Include="Views\Books\Swan.Mobile.cshtml" />
-    <Content Include="Views\Books\ThePhysicsOfSpirituality.cshtml" />
-    <Content Include="Views\Books\ThePhysicsOfSpirituality.Mobile.cshtml" />
     <Content Include="Views\Books\TheWay.cshtml" />
     <Content Include="Views\Books\TheWay.Mobile.cshtml" />
     <Content Include="Views\Books\Universe.cshtml" />
@@ -799,12 +787,6 @@
     <Content Include="Views\CD2021\CD100.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD101.cshtml" />
     <Content Include="Views\CD2021\CD101.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD102.cshtml" />
-    <Content Include="Views\CD2021\CD102.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD103.cshtml" />
-    <Content Include="Views\CD2021\CD103.Mobile.cshtml" />
-    <Content Include="Views\CD2021\CD104.cshtml" />
-    <Content Include="Views\CD2021\CD104.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD83.cshtml" />
     <Content Include="Views\CD2021\CD83.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD84.cshtml" />
@@ -1067,6 +1049,8 @@
     <Content Include="Views\Books\Storytelling.cshtml" />
     <Content Include="Views\CD2020\CD82.Mobile.cshtml" />
     <Content Include="Views\CD2020\CD82.cshtml" />
+    <Content Include="Views\Books\ThePhysicsOfSpirituality.cshtml" />
+    <Content Include="Views\Books\ThePhysicsOfSpirituality.Mobile.cshtml" />
     <Content Include="Views\Books\KingdomOfHeavenLiesInside.cshtml" />
     <Content Include="Views\Books\KingdomOfHeavenLiesInside.Mobile.cshtml" />
     <Content Include="Views\Books\JatakaTales.Mobile.cshtml" />
@@ -1107,12 +1091,8 @@
     <Content Include="Views\Books\NaropaCommentary.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.Mobile.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.cshtml" />
-    <Content Include="Views\CD2022\CD105.cshtml" />
-    <Content Include="Views\CD2022\CD105.Mobile.cshtml" />
-    <Content Include="Views\Books\Alchemy.Mobile.cshtml" />
-    <Content Include="Views\Books\Alchemy.cshtml" />
-    <Content Include="Views\Books\Training.Mobile.cshtml" />
-    <Content Include="Views\Books\Training.cshtml" />
+    <Content Include="Views\CD2021\CD102.Mobile.cshtml" />
+    <Content Include="Views\CD2021\CD102.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
