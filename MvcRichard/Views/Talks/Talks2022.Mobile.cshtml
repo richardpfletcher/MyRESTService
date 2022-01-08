@@ -1,0 +1,54 @@
+﻿
+
+
+
+@{
+    ViewBag.Title = "CD.Mobile";
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <div>
+                <img src="\Audio\Talks\Talks2022\album.jpg" style="width:300px;height:300px;" alt="album">
+
+
+            </div>
+
+            <div>
+
+                @* <a href="\PDF\CD\beautifulday.pdf" target="_blank">Click to Open PDF </a>*@
+                <a href="https://evolutionrevolutionoflove.com/PDF/Talks/Talks2022.pdf">Click to Open PDF </a>
+            </div>
+
+            <p></p>
+
+            @try
+            {
+
+                foreach (MvcRichard.Models.DocumentModel order
+                   in (List<MvcRichard.Models.DocumentModel>)ViewData["orderData"])
+                {
+
+                    <div>
+                        <a class="btn btn-info" href="@order.HttpPathName">@order.ShortName</a>
+                    </div>
+                    <p></p>
+                }
+
+            }
+            catch
+            {
+            }
+        </div>
+    </div>
+</div>

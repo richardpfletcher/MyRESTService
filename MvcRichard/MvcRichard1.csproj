@@ -868,6 +868,8 @@
     <Content Include="Views\Talks\Talks2019.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2020.cshtml" />
     <Content Include="Views\Talks\Talks2020.Mobile.cshtml" />
+    <Content Include="Views\Talks\Talks2021.cshtml" />
+    <Content Include="Views\Talks\Talks2021.Mobile.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1077,8 +1079,6 @@
     <Content Include="Views\Books\Pandora.cshtml" />
     <Content Include="Views\Books\JaiJinendra.cshtml" />
     <Content Include="Views\Books\JaiJinendra.Mobile.cshtml" />
-    <Content Include="Views\Talks\Talks2021.cshtml" />
-    <Content Include="Views\Talks\Talks2021.Mobile.cshtml" />
     <Content Include="Views\Books\Harmony.Mobile.cshtml" />
     <Content Include="Views\Books\Harmony.cshtml" />
     <Content Include="Views\Books\BrokenRecord.Mobile.cshtml" />
@@ -1113,6 +1113,8 @@
     <Content Include="Views\Books\Alchemy.cshtml" />
     <Content Include="Views\Books\Training.Mobile.cshtml" />
     <Content Include="Views\Books\Training.cshtml" />
+    <Content Include="Views\Talks\Talks2022.Mobile.cshtml" />
+    <Content Include="Views\Talks\Talks2022.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
