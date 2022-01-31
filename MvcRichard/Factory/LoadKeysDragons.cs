@@ -22,6 +22,7 @@ namespace MvcRichard.Factory
             list.Add(new BookModel(counter++, "Zoran And Friends"));
             list.Add(new BookModel(counter++, "The Frog in The Well"));
             list.Add(new BookModel(counter++, "Flying With Dragons"));
+            list.Add(new BookModel(counter++, "Dragon History And Tummo"));
             list.Add(new BookModel(counter++, "David The Dragon"));
             list.Add(new BookModel(counter++, "Charlie The Dragon"));
             list.Add(new BookModel(counter++, "From Darkness To Light"));

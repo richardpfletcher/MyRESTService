@@ -253,6 +253,7 @@
     <Compile Include="Factory\LoadKeysDreams.cs" />
     <Compile Include="Factory\LoadKeysDreamTime.cs" />
     <Compile Include="Factory\LoadKeysEconomics.cs" />
+    <Compile Include="Factory\LoadKeysEsotericTreasures.cs" />
     <Compile Include="Factory\LoadKeysFamily.cs" />
     <Compile Include="Factory\LoadKeysFractal.cs" />
     <Compile Include="Factory\LoadKeysFromMeToWe.cs" />
@@ -835,6 +836,8 @@
     <Content Include="Views\CD2021\CD98.Mobile.cshtml" />
     <Content Include="Views\CD2021\CD99.cshtml" />
     <Content Include="Views\CD2021\CD99.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD105.cshtml" />
+    <Content Include="Views\CD2022\CD105.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1107,14 +1110,16 @@
     <Content Include="Views\Books\NaropaCommentary.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.Mobile.cshtml" />
     <Content Include="Views\Sayings2021\Sayings29.cshtml" />
-    <Content Include="Views\CD2022\CD105.cshtml" />
-    <Content Include="Views\CD2022\CD105.Mobile.cshtml" />
     <Content Include="Views\Books\Alchemy.Mobile.cshtml" />
     <Content Include="Views\Books\Alchemy.cshtml" />
     <Content Include="Views\Books\Training.Mobile.cshtml" />
     <Content Include="Views\Books\Training.cshtml" />
     <Content Include="Views\Talks\Talks2022.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2022.cshtml" />
+    <Content Include="Views\CD2022\CD106.cshtml" />
+    <Content Include="Views\CD2022\CD106.Mobile.cshtml" />
+    <Content Include="Views\Books\EsotericTreasures.Mobile.cshtml" />
+    <Content Include="Views\Books\EsotericTreasures.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
