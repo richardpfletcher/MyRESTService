@@ -274,12 +274,14 @@
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
+    <Compile Include="Factory\LoadKeysMysticalHistorian.cs" />
     <Compile Include="Factory\LoadKeysNaropa.cs" />
     <Compile Include="Factory\LoadKeysNaropaCommentary.cs" />
     <Compile Include="Factory\LoadKeysNonViolence.cs" />
     <Compile Include="Factory\LoadKeysOverTheHil.cs" />
     <Compile Include="Factory\LoadKeysPandora.cs" />
     <Compile Include="Factory\LoadKeysPolitics.cs" />
+    <Compile Include="Factory\LoadKeysPuzzle.cs" />
     <Compile Include="Factory\LoadKeysQuantum.cs" />
     <Compile Include="Factory\LoadKeysRecalibration.cs" />
     <Compile Include="Factory\LoadKeysRumi.cs" />
@@ -674,6 +676,8 @@
     <Content Include="Views\Books\DragonsNaropa.Mobile.cshtml" />
     <Content Include="Views\Books\DragonsNaropa2.cshtml" />
     <Content Include="Views\Books\DragonsNaropa2.Mobile.cshtml" />
+    <Content Include="Views\Books\EsotericTreasures.cshtml" />
+    <Content Include="Views\Books\EsotericTreasures.Mobile.cshtml" />
     <Content Include="Views\Books\Garden.cshtml" />
     <Content Include="Views\Books\Garden.Mobile.cshtml" />
     <Content Include="Views\Books\Happiness.cshtml" />
@@ -1118,8 +1122,8 @@
     <Content Include="Views\Talks\Talks2022.cshtml" />
     <Content Include="Views\CD2022\CD106.cshtml" />
     <Content Include="Views\CD2022\CD106.Mobile.cshtml" />
-    <Content Include="Views\Books\EsotericTreasures.Mobile.cshtml" />
-    <Content Include="Views\Books\EsotericTreasures.cshtml" />
+    <Content Include="Views\Books\MysticalHistorian.cshtml" />
+    <Content Include="Views\Books\MysticalHistorian.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
