@@ -226,6 +226,7 @@
     <Compile Include="Controllers\Sayings2019Controller.cs" />
     <Compile Include="Controllers\Sayings2020Controller.cs" />
     <Compile Include="Controllers\Sayings2021Controller.cs" />
+    <Compile Include="Controllers\Sayings2022Controller.cs" />
     <Compile Include="Controllers\SayingsController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\TalksController.cs" />
@@ -264,6 +265,7 @@
     <Compile Include="Factory\LoadKeysHarmony.cs" />
     <Compile Include="Factory\LoadKeysHeartOfGold.cs" />
     <Compile Include="Factory\LoadKeysHuman.cs" />
+    <Compile Include="Factory\LoadKeysInnerharmony.cs" />
     <Compile Include="Factory\LoadKeysJaiJinendra.cs" />
     <Compile Include="Factory\LoadKeysJatakaTales.cs" />
     <Compile Include="Factory\LoadKeysJourney.cs" />
@@ -274,7 +276,6 @@
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
-    <Compile Include="Factory\LoadKeysMysticalHistorian.cs" />
     <Compile Include="Factory\LoadKeysNaropa.cs" />
     <Compile Include="Factory\LoadKeysNaropaCommentary.cs" />
     <Compile Include="Factory\LoadKeysNonViolence.cs" />
@@ -300,6 +301,7 @@
     <Compile Include="Factory\LoadKeysTransformation.cs" />
     <Compile Include="Factory\LoadKeysTricks.cs" />
     <Compile Include="Factory\LoadKeysUniverse.cs" />
+    <Compile Include="Factory\LoadKeysWar.cs" />
     <Compile Include="Factory\LoadKeysWhoAmI.cs" />
     <Compile Include="Factory\LoadKeysYoga.cs" />
     <Compile Include="Factory\LoadKeysZoran1.cs" />
@@ -317,6 +319,7 @@
     <Compile Include="Models\DocumentModel.cs" />
     <Compile Include="Models\EmailModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Books\LoadKeysMysticalHistorian.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\blossoms.jpg" />
@@ -611,7 +614,6 @@
     <Content Include="Scripts\angular-sanitize.min.js.map" />
     <Content Include="Scripts\angular-touch.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
-    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
@@ -694,6 +696,8 @@
     <Content Include="Views\Books\Kids.Mobile.cshtml" />
     <Content Include="Views\Books\Knowledge.cshtml" />
     <Content Include="Views\Books\Knowledge.Mobile.cshtml" />
+    <Content Include="Views\Books\MysticalHistorian.cshtml" />
+    <Content Include="Views\Books\MysticalHistorian.Mobile.cshtml" />
     <Content Include="Views\Books\OverTheHill.cshtml" />
     <Content Include="Views\Books\OverTheHill.Mobile.cshtml" />
     <Content Include="Views\Books\Politics.cshtml" />
@@ -716,6 +720,8 @@
     <Content Include="Views\Books\TheWay.Mobile.cshtml" />
     <Content Include="Views\Books\Universe.cshtml" />
     <Content Include="Views\Books\Universe.Mobile.cshtml" />
+    <Content Include="Views\Books\War.cshtml" />
+    <Content Include="Views\Books\War.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
@@ -842,6 +848,7 @@
     <Content Include="Views\CD2021\CD99.Mobile.cshtml" />
     <Content Include="Views\CD2022\CD105.cshtml" />
     <Content Include="Views\CD2022\CD105.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD106.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1112,18 +1119,18 @@
     <Content Include="Views\Books\Transformation.Mobile.cshtml" />
     <Content Include="Views\Books\NaropaCommentary.Mobile.cshtml" />
     <Content Include="Views\Books\NaropaCommentary.cshtml" />
-    <Content Include="Views\Sayings2021\Sayings29.Mobile.cshtml" />
-    <Content Include="Views\Sayings2021\Sayings29.cshtml" />
     <Content Include="Views\Books\Alchemy.Mobile.cshtml" />
     <Content Include="Views\Books\Alchemy.cshtml" />
     <Content Include="Views\Books\Training.Mobile.cshtml" />
     <Content Include="Views\Books\Training.cshtml" />
     <Content Include="Views\Talks\Talks2022.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2022.cshtml" />
-    <Content Include="Views\CD2022\CD106.cshtml" />
-    <Content Include="Views\CD2022\CD106.Mobile.cshtml" />
-    <Content Include="Views\Books\MysticalHistorian.cshtml" />
-    <Content Include="Views\Books\MysticalHistorian.Mobile.cshtml" />
+    <Content Include="Views\Sayings2022\Sayings30.Mobile.cshtml" />
+    <Content Include="Views\Sayings2022\Sayings30.cshtml" />
+    <Content Include="Views\CD2022\CD107.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD107.cshtml" />
+    <Content Include="Views\Books\Innerharmony.cshtml" />
+    <Content Include="Views\Books\Innerharmony.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1155,6 +1162,7 @@
     <Folder Include="PDF\Books\Universe\" />
     <Folder Include="PDF\CD\" />
     <Folder Include="PDF\Sayings\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">

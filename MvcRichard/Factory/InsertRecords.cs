@@ -43,12 +43,12 @@ namespace MvcRichard.Factory
                         //4   Books
 
 
-                        cmd.Parameters.Add("@Category", SqlDbType.Int).Value = 4;
+                        cmd.Parameters.Add("@Category", SqlDbType.Int).Value = 1;
 
                         // id
                         //part of album It's a beautiful day in the neighboorhood
                         // change this value each time
-                        cmd.Parameters.Add("@PartOfAlbum", SqlDbType.Int).Value = 215;
+                        cmd.Parameters.Add("@PartOfAlbum", SqlDbType.Int).Value = 218;
 
 
                         con.Open();

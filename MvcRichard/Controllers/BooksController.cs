@@ -48,7 +48,7 @@ namespace MvcRichard.Controllers
                 }
             }
 
-           
+
 
 
 
@@ -88,7 +88,7 @@ namespace MvcRichard.Controllers
                 }
             }
 
-          
+
 
             ViewData["orderData"] = list;
 
@@ -128,7 +128,7 @@ namespace MvcRichard.Controllers
                 }
             }
 
-           
+
 
             ViewData["orderData"] = list;
 
@@ -239,7 +239,7 @@ namespace MvcRichard.Controllers
             ViewData["orderData"] = list;
 
             return View();
-           
+
         }
 
         public ActionResult StarDust()
@@ -2837,6 +2837,86 @@ namespace MvcRichard.Controllers
 
         }
 
+        public ActionResult War()
+        {
 
+
+            LoadKeysWar s1 = LoadKeysWar.Instance();
+            List<BookModel> items = LoadKeysWar.list;
+
+            String Path = Server.MapPath("/Audio/Books/War");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\War\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/War/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+
+        }
+        public ActionResult Innerharmony()
+        {
+
+
+            LoadKeysInnerharmony s1 = LoadKeysInnerharmony.Instance();
+            List<BookModel> items = LoadKeysInnerharmony.list;
+
+            String Path = Server.MapPath("/Audio/Books/Innerharmony");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Innerharmony\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Innerharmony/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
     }
 }
