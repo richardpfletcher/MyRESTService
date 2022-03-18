@@ -16,10 +16,6 @@ namespace MvcRichard.Factory
             //talks
 
             list.Add(new BookModel(counter++, "Intro"));
-
-            
-list.Add(new BookModel(counter++, "Science can be biased"));
-            list.Add(new BookModel(counter++, "09-01-2019 Age Is Timeless"));
             list.Add(new BookModel(counter++, "Fractal Fairy Tales"));
             list.Add(new BookModel(counter++, "Family and Friends"));
             list.Add(new BookModel(counter++, "Dragons Tales"));
