@@ -302,6 +302,7 @@
     <Compile Include="Factory\LoadKeysTricks.cs" />
     <Compile Include="Factory\LoadKeysUniverse.cs" />
     <Compile Include="Factory\LoadKeysWar.cs" />
+    <Compile Include="Factory\LoadKeysWhat.cs" />
     <Compile Include="Factory\LoadKeysWhoAmI.cs" />
     <Compile Include="Factory\LoadKeysYoga.cs" />
     <Compile Include="Factory\LoadKeysZoran1.cs" />
@@ -688,6 +689,8 @@
     <Content Include="Views\Books\Hardwired.Mobile.cshtml" />
     <Content Include="Views\Books\Human.cshtml" />
     <Content Include="Views\Books\Human.Mobile.cshtml" />
+    <Content Include="Views\Books\Innerharmony.cshtml" />
+    <Content Include="Views\Books\Innerharmony.Mobile.cshtml" />
     <Content Include="Views\Books\Journey.cshtml" />
     <Content Include="Views\Books\Journey.Mobile.cshtml" />
     <Content Include="Views\Books\Kabbalah.cshtml" />
@@ -1129,8 +1132,8 @@
     <Content Include="Views\Sayings2022\Sayings30.cshtml" />
     <Content Include="Views\CD2022\CD107.Mobile.cshtml" />
     <Content Include="Views\CD2022\CD107.cshtml" />
-    <Content Include="Views\Books\Innerharmony.cshtml" />
-    <Content Include="Views\Books\Innerharmony.Mobile.cshtml" />
+    <Content Include="Views\Books\What.cshtml" />
+    <Content Include="Views\Books\What.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
