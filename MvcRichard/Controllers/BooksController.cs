@@ -2959,5 +2959,90 @@ namespace MvcRichard.Controllers
 
             return View();
         }
+
+        public ActionResult Once()
+        {
+
+
+            LoadKeysOnce s1 = LoadKeysOnce.Instance();
+            List<BookModel> items = LoadKeysOnce.list;
+
+            String Path = Server.MapPath("/Audio/Books/Once");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Once\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Once/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+        public ActionResult FamilyCooking()
+        {
+
+
+            LoadKeysFamilyCooking s1 = LoadKeysFamilyCooking.Instance();
+            List<BookModel> items = LoadKeysFamilyCooking.list;
+
+            String Path = Server.MapPath("/Audio/Books/FamilyCooking");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\FamilyCooking\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/FamilyCooking/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+
+
     }
 }

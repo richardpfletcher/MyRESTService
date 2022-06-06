@@ -256,6 +256,7 @@
     <Compile Include="Factory\LoadKeysEconomics.cs" />
     <Compile Include="Factory\LoadKeysEsotericTreasures.cs" />
     <Compile Include="Factory\LoadKeysFamily.cs" />
+    <Compile Include="Factory\LoadKeysFamilyCooking.cs" />
     <Compile Include="Factory\LoadKeysFractal.cs" />
     <Compile Include="Factory\LoadKeysFromMeToWe.cs" />
     <Compile Include="Factory\LoadKeysGaia.cs" />
@@ -279,6 +280,7 @@
     <Compile Include="Factory\LoadKeysNaropa.cs" />
     <Compile Include="Factory\LoadKeysNaropaCommentary.cs" />
     <Compile Include="Factory\LoadKeysNonViolence.cs" />
+    <Compile Include="Factory\LoadKeysOnce.cs" />
     <Compile Include="Factory\LoadKeysOverTheHil.cs" />
     <Compile Include="Factory\LoadKeysPandora.cs" />
     <Compile Include="Factory\LoadKeysPolitics.cs" />
@@ -701,6 +703,8 @@
     <Content Include="Views\Books\Knowledge.Mobile.cshtml" />
     <Content Include="Views\Books\MysticalHistorian.cshtml" />
     <Content Include="Views\Books\MysticalHistorian.Mobile.cshtml" />
+    <Content Include="Views\Books\Once.cshtml" />
+    <Content Include="Views\Books\Once.Mobile.cshtml" />
     <Content Include="Views\Books\OverTheHill.cshtml" />
     <Content Include="Views\Books\OverTheHill.Mobile.cshtml" />
     <Content Include="Views\Books\Politics.cshtml" />
@@ -725,6 +729,8 @@
     <Content Include="Views\Books\Universe.Mobile.cshtml" />
     <Content Include="Views\Books\War.cshtml" />
     <Content Include="Views\Books\War.Mobile.cshtml" />
+    <Content Include="Views\Books\What.cshtml" />
+    <Content Include="Views\Books\What.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
@@ -1132,8 +1138,8 @@
     <Content Include="Views\Sayings2022\Sayings30.cshtml" />
     <Content Include="Views\CD2022\CD107.Mobile.cshtml" />
     <Content Include="Views\CD2022\CD107.cshtml" />
-    <Content Include="Views\Books\What.cshtml" />
-    <Content Include="Views\Books\What.Mobile.cshtml" />
+    <Content Include="Views\Books\FamilyCooking.cshtml" />
+    <Content Include="Views\Books\FamilyCooking.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
