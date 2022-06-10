@@ -858,6 +858,8 @@
     <Content Include="Views\CD2022\CD105.cshtml" />
     <Content Include="Views\CD2022\CD105.Mobile.cshtml" />
     <Content Include="Views\CD2022\CD106.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD107.cshtml" />
+    <Content Include="Views\CD2022\CD107.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1136,10 +1138,10 @@
     <Content Include="Views\Talks\Talks2022.cshtml" />
     <Content Include="Views\Sayings2022\Sayings30.Mobile.cshtml" />
     <Content Include="Views\Sayings2022\Sayings30.cshtml" />
-    <Content Include="Views\CD2022\CD107.Mobile.cshtml" />
-    <Content Include="Views\CD2022\CD107.cshtml" />
     <Content Include="Views\Books\FamilyCooking.cshtml" />
     <Content Include="Views\Books\FamilyCooking.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD108.cshtml" />
+    <Content Include="Views\CD2022\CD108.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
