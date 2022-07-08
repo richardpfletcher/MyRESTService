@@ -3041,6 +3041,127 @@ namespace MvcRichard.Controllers
 
             return View();
         }
+        public ActionResult FamilyTravels()
+        {
+
+
+            LoadKeysFamilyTravels s1 = LoadKeysFamilyTravels.Instance();
+            List<BookModel> items = LoadKeysFamilyTravels.list;
+
+            String Path = Server.MapPath("/Audio/Books/FamilyTravels");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\FamilyTravels\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/FamilyTravels/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+        public ActionResult LifeOfKai()
+        {
+
+
+            LoadKeysLifeOfKai s1 = LoadKeysLifeOfKai.Instance();
+            List<BookModel> items = LoadKeysLifeOfKai.list;
+
+            String Path = Server.MapPath("/Audio/Books/LifeOfKai");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\LifeOfKai\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/LifeOfKai/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+        public ActionResult Breathe()
+        {
+
+
+            LoadKeysBreathe s1 = LoadKeysBreathe.Instance();
+            List<BookModel> items = LoadKeysBreathe.list;
+
+            String Path = Server.MapPath("/Audio/Books/Breathe");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Breathe\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Breathe/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
 
 
 

@@ -241,6 +241,7 @@
     <Compile Include="Factory\LoadKeysActions.cs" />
     <Compile Include="Factory\LoadKeysAlchemy.cs" />
     <Compile Include="Factory\LoadKeysAuto.cs" />
+    <Compile Include="Factory\LoadKeysBreathe.cs" />
     <Compile Include="Factory\LoadKeysBrokenRecord.cs" />
     <Compile Include="Factory\LoadKeysChemist.cs" />
     <Compile Include="Factory\LoadKeysCloudy.cs" />
@@ -257,6 +258,7 @@
     <Compile Include="Factory\LoadKeysEsotericTreasures.cs" />
     <Compile Include="Factory\LoadKeysFamily.cs" />
     <Compile Include="Factory\LoadKeysFamilyCooking.cs" />
+    <Compile Include="Factory\LoadKeysFamilyTravels.cs" />
     <Compile Include="Factory\LoadKeysFractal.cs" />
     <Compile Include="Factory\LoadKeysFromMeToWe.cs" />
     <Compile Include="Factory\LoadKeysGaia.cs" />
@@ -275,6 +277,7 @@
     <Compile Include="Factory\LoadKeysKingdomOfHeavenLiesInside.cs" />
     <Compile Include="Factory\LoadKeysKnowledge.cs" />
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
+    <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
     <Compile Include="Factory\LoadKeysNaropa.cs" />
@@ -683,6 +686,7 @@
     <Content Include="Views\Books\DragonsNaropa2.Mobile.cshtml" />
     <Content Include="Views\Books\EsotericTreasures.cshtml" />
     <Content Include="Views\Books\EsotericTreasures.Mobile.cshtml" />
+    <Content Include="Views\Books\Gaia.Mobile.cshtml" />
     <Content Include="Views\Books\Garden.cshtml" />
     <Content Include="Views\Books\Garden.Mobile.cshtml" />
     <Content Include="Views\Books\Happiness.cshtml" />
@@ -860,6 +864,12 @@
     <Content Include="Views\CD2022\CD106.Mobile.cshtml" />
     <Content Include="Views\CD2022\CD107.cshtml" />
     <Content Include="Views\CD2022\CD107.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD108.cshtml" />
+    <Content Include="Views\CD2022\CD108.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD109.cshtml" />
+    <Content Include="Views\CD2022\CD109.Mobile.cshtml" />
+    <Content Include="Views\CD2022\CD110.cshtml" />
+    <Content Include="Views\CD2022\CD110.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1140,8 +1150,14 @@
     <Content Include="Views\Sayings2022\Sayings30.cshtml" />
     <Content Include="Views\Books\FamilyCooking.cshtml" />
     <Content Include="Views\Books\FamilyCooking.Mobile.cshtml" />
-    <Content Include="Views\CD2022\CD108.cshtml" />
-    <Content Include="Views\CD2022\CD108.Mobile.cshtml" />
+    <Content Include="Views\Books\FamilyTravels.Mobile.cshtml" />
+    <Content Include="Views\Books\FamilyTravels.cshtml" />
+    <Content Include="Views\Books\LifeOfKai.Mobile.cshtml" />
+    <Content Include="Views\Books\Gaia.cshtml" />
+    <Content Include="Views\CD2022\CD111.cshtml" />
+    <Content Include="Views\CD2022\CD111.Mobile.cshtml" />
+    <Content Include="Views\Books\Breathe.cshtml" />
+    <Content Include="Views\Books\Breathe.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
