@@ -279,6 +279,8 @@
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
     <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
+    <Compile Include="Factory\LoadKeysMonroe.cs" />
+    <Compile Include="Factory\LoadKeysMusic.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
     <Compile Include="Factory\LoadKeysNaropa.cs" />
     <Compile Include="Factory\LoadKeysNaropaCommentary.cs" />
@@ -737,6 +739,8 @@
     <Content Include="Views\Books\What.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
+    <Content Include="Views\Books\Yoga.cshtml" />
+    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -1158,6 +1162,10 @@
     <Content Include="Views\CD2022\CD111.Mobile.cshtml" />
     <Content Include="Views\Books\Breathe.cshtml" />
     <Content Include="Views\Books\Breathe.Mobile.cshtml" />
+    <Content Include="Views\Books\Monroe.Mobile.cshtml" />
+    <Content Include="Views\Books\Monroe.cshtml" />
+    <Content Include="Views\Books\Music.Mobile.cshtml" />
+    <Content Include="Views\Books\music.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
