@@ -249,6 +249,7 @@
     <Compile Include="Factory\LoadKeysCreative.cs" />
     <Compile Include="Factory\LoadKeysDeath.cs" />
     <Compile Include="Factory\LoadKeysDefinition.cs" />
+    <Compile Include="Factory\LoadKeysDraconis.cs" />
     <Compile Include="Factory\LoadKeysDragons.cs" />
     <Compile Include="Factory\LoadKeysDragonsNaropa .cs" />
     <Compile Include="Factory\LoadKeysDragonsNaropa2.cs" />
@@ -263,6 +264,7 @@
     <Compile Include="Factory\LoadKeysFromMeToWe.cs" />
     <Compile Include="Factory\LoadKeysGaia.cs" />
     <Compile Include="Factory\LoadKeysGarden.cs" />
+    <Compile Include="Factory\LoadKeysGita.cs" />
     <Compile Include="Factory\LoadKeysHappiness.cs" />
     <Compile Include="Factory\LoadKeysHardwired.cs" />
     <Compile Include="Factory\LoadKeysHarmony.cs" />
@@ -302,6 +304,7 @@
     <Compile Include="Factory\LoadKeysSurfing.cs" />
     <Compile Include="Factory\LoadKeysSwan.cs" />
     <Compile Include="Factory\LoadKeysTeachingsOfTheDragons.cs" />
+    <Compile Include="Factory\LoadKeysTemper.cs" />
     <Compile Include="Factory\LoadKeysThePhysicsOfSpirituality.cs" />
     <Compile Include="Factory\LoadKeysTheWay.cs" />
     <Compile Include="Factory\LoadKeysTraining.cs" />
@@ -309,6 +312,7 @@
     <Compile Include="Factory\LoadKeysTricks.cs" />
     <Compile Include="Factory\LoadKeysUniverse.cs" />
     <Compile Include="Factory\LoadKeysWar.cs" />
+    <Compile Include="Factory\LoadKeysWestCoast.cs" />
     <Compile Include="Factory\LoadKeysWhat.cs" />
     <Compile Include="Factory\LoadKeysWhoAmI.cs" />
     <Compile Include="Factory\LoadKeysYoga.cs" />
@@ -739,8 +743,6 @@
     <Content Include="Views\Books\What.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
-    <Content Include="Views\Books\Yoga.cshtml" />
-    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -1166,6 +1168,14 @@
     <Content Include="Views\Books\Monroe.cshtml" />
     <Content Include="Views\Books\Music.Mobile.cshtml" />
     <Content Include="Views\Books\music.cshtml" />
+    <Content Include="Views\Books\Gita.Mobile.cshtml" />
+    <Content Include="Views\Books\Gita.cshtml" />
+    <Content Include="Views\Books\WestCoast.Mobile.cshtml" />
+    <Content Include="Views\Books\WestCoast.cshtml" />
+    <Content Include="Views\Books\Draconis.Mobile.cshtml" />
+    <Content Include="Views\Books\Draconis.cshtml" />
+    <Content Include="Views\Books\Temper.Mobile.cshtml" />
+    <Content Include="Views\Books\Temper.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
