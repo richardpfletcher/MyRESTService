@@ -191,6 +191,34 @@ namespace MvcRichard.Controllers
             return View();
         }
 
+        public ActionResult Talks2023()
+        {
+            String Path = Server.MapPath("/Audio/Talks/Talks2023");
+            String[] FileNames = Directory.GetFiles(Path);
+            Array.Reverse(FileNames);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (string path in FileNames) //iterate the file list
+            {
+                string x = path;
+
+                // Find the last occurrence of \.
+                int index1 = x.LastIndexOf('\\');
+                string fullname = x.Substring(index1 + 1);
+                string shortname = fullname.Substring(0, fullname.Length - 4);
+                if (shortname != "Intro" && shortname != "album" && shortname.ToUpper() != "ORGINAL")
+                {
+                    list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Talks\\Talks2023\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Talks/Talks2023/" + fullname));
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+            ViewData["orderData"] = list;
+            return View();
+        }
 
 
     }

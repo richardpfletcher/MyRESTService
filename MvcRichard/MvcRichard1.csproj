@@ -216,6 +216,7 @@
     <Compile Include="Controllers\CD2020Controller.cs" />
     <Compile Include="Controllers\CD2021Controller.cs" />
     <Compile Include="Controllers\CD2022Controller.cs" />
+    <Compile Include="Controllers\CD2023Controller.cs" />
     <Compile Include="Controllers\CDController.cs" />
     <Compile Include="Controllers\ChannelController.cs" />
     <Compile Include="Controllers\EvolutionController.cs" />
@@ -279,6 +280,7 @@
     <Compile Include="Factory\LoadKeysKingdomOfHeavenLiesInside.cs" />
     <Compile Include="Factory\LoadKeysKnowledge.cs" />
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
+    <Compile Include="Factory\LoadKeysland.cs" />
     <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMonroe.cs" />
@@ -743,6 +745,8 @@
     <Content Include="Views\Books\What.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
+    <Content Include="Views\Books\Yoga.cshtml" />
+    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -911,6 +915,7 @@
     <Content Include="Views\Talks\Talks2020.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2021.cshtml" />
     <Content Include="Views\Talks\Talks2021.Mobile.cshtml" />
+    <Content Include="Views\Talks\Talks2022.Mobile.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1150,8 +1155,6 @@
     <Content Include="Views\Books\Alchemy.cshtml" />
     <Content Include="Views\Books\Training.Mobile.cshtml" />
     <Content Include="Views\Books\Training.cshtml" />
-    <Content Include="Views\Talks\Talks2022.Mobile.cshtml" />
-    <Content Include="Views\Talks\Talks2022.cshtml" />
     <Content Include="Views\Sayings2022\Sayings30.Mobile.cshtml" />
     <Content Include="Views\Sayings2022\Sayings30.cshtml" />
     <Content Include="Views\Books\FamilyCooking.cshtml" />
@@ -1176,6 +1179,12 @@
     <Content Include="Views\Books\Draconis.cshtml" />
     <Content Include="Views\Books\Temper.Mobile.cshtml" />
     <Content Include="Views\Books\Temper.cshtml" />
+    <Content Include="Views\CD2023\CD111.cshtml" />
+    <Content Include="Views\CD2023\CD111.Mobile.cshtml" />
+    <Content Include="Views\Books\land.Mobile.cshtml" />
+    <Content Include="Views\Books\land.cshtml" />
+    <Content Include="Views\Talks\Talks2023.Mobile.cshtml" />
+    <Content Include="Views\Talks\Talks2023.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
