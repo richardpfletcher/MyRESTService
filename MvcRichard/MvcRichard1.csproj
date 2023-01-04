@@ -244,6 +244,7 @@
     <Compile Include="Factory\LoadKeysAuto.cs" />
     <Compile Include="Factory\LoadKeysBreathe.cs" />
     <Compile Include="Factory\LoadKeysBrokenRecord.cs" />
+    <Compile Include="Factory\LoadKeysCentralSun.cs" />
     <Compile Include="Factory\LoadKeysChemist.cs" />
     <Compile Include="Factory\LoadKeysCloudy.cs" />
     <Compile Include="Factory\LoadKeysCorona.cs" />
@@ -1185,6 +1186,8 @@
     <Content Include="Views\Books\land.cshtml" />
     <Content Include="Views\Talks\Talks2023.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2023.cshtml" />
+    <Content Include="Views\Books\CentralSun.Mobile.cshtml" />
+    <Content Include="Views\Books\CentralSun.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
