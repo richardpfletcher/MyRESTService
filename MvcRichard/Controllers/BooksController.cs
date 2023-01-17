@@ -3492,6 +3492,130 @@ namespace MvcRichard.Controllers
             return View();
         }
 
+        public ActionResult Occam()
+        {
+
+
+            LoadKeysOccam s1 = LoadKeysOccam.Instance();
+            List<BookModel> items = LoadKeysOccam.list;
+
+            String Path = Server.MapPath("/Audio/Books/Occam");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Occam\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Occam/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+        public ActionResult Paryushan2022()
+        {
+
+
+            LoadKeysParyushan2022 s1 = LoadKeysParyushan2022.Instance();
+            List<BookModel> items = LoadKeysParyushan2022.list;
+
+            String Path = Server.MapPath("/Audio/Books/Paryushan2022");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Paryushan2022\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Paryushan2022/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+        public ActionResult Zoran()
+        {
+
+
+            LoadKeysZoran s1 = LoadKeysZoran.Instance();
+            List<BookModel> items = LoadKeysZoran.list;
+
+            String Path = Server.MapPath("/Audio/Books/Zoran");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Zoran\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Zoran/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+
 
     }
 }

@@ -290,9 +290,11 @@
     <Compile Include="Factory\LoadKeysNaropa.cs" />
     <Compile Include="Factory\LoadKeysNaropaCommentary.cs" />
     <Compile Include="Factory\LoadKeysNonViolence.cs" />
+    <Compile Include="Factory\LoadKeysOccam.cs" />
     <Compile Include="Factory\LoadKeysOnce.cs" />
     <Compile Include="Factory\LoadKeysOverTheHil.cs" />
     <Compile Include="Factory\LoadKeysPandora.cs" />
+    <Compile Include="Factory\LoadKeysParyushan2022.cs" />
     <Compile Include="Factory\LoadKeysPolitics.cs" />
     <Compile Include="Factory\LoadKeysPuzzle.cs" />
     <Compile Include="Factory\LoadKeysQuantum.cs" />
@@ -319,6 +321,7 @@
     <Compile Include="Factory\LoadKeysWhat.cs" />
     <Compile Include="Factory\LoadKeysWhoAmI.cs" />
     <Compile Include="Factory\LoadKeysYoga.cs" />
+    <Compile Include="Factory\LoadKeysZoran.cs" />
     <Compile Include="Factory\LoadKeysZoran1.cs" />
     <Compile Include="Factory\Response.cs" />
     <Compile Include="Factory\Update.cs" />
@@ -746,8 +749,6 @@
     <Content Include="Views\Books\What.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
-    <Content Include="Views\Books\Yoga.cshtml" />
-    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -1188,6 +1189,12 @@
     <Content Include="Views\Talks\Talks2023.cshtml" />
     <Content Include="Views\Books\CentralSun.Mobile.cshtml" />
     <Content Include="Views\Books\CentralSun.cshtml" />
+    <Content Include="Views\Books\Occam.Mobile.cshtml" />
+    <Content Include="Views\Books\Occam.cshtml" />
+    <Content Include="Views\Books\Paryushan2022.Mobile.cshtml" />
+    <Content Include="Views\Books\Paryushan2022.cshtml" />
+    <Content Include="Views\Books\Zoran.Mobile.cshtml" />
+    <Content Include="Views\Books\Zoran.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
