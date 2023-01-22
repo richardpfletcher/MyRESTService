@@ -882,6 +882,8 @@
     <Content Include="Views\CD2022\CD109.Mobile.cshtml" />
     <Content Include="Views\CD2022\CD110.cshtml" />
     <Content Include="Views\CD2022\CD110.Mobile.cshtml" />
+    <Content Include="Views\CD2023\CD111.cshtml" />
+    <Content Include="Views\CD2023\CD111.Mobile.cshtml" />
     <Content Include="Views\CD\CD28.cshtml" />
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
@@ -1181,8 +1183,6 @@
     <Content Include="Views\Books\Draconis.cshtml" />
     <Content Include="Views\Books\Temper.Mobile.cshtml" />
     <Content Include="Views\Books\Temper.cshtml" />
-    <Content Include="Views\CD2023\CD111.cshtml" />
-    <Content Include="Views\CD2023\CD111.Mobile.cshtml" />
     <Content Include="Views\Books\land.Mobile.cshtml" />
     <Content Include="Views\Books\land.cshtml" />
     <Content Include="Views\Talks\Talks2023.Mobile.cshtml" />
@@ -1195,6 +1195,8 @@
     <Content Include="Views\Books\Paryushan2022.cshtml" />
     <Content Include="Views\Books\Zoran.Mobile.cshtml" />
     <Content Include="Views\Books\Zoran.cshtml" />
+    <Content Include="Views\CD2023\CD112.Mobile.cshtml" />
+    <Content Include="Views\CD2023\CD112.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
