@@ -48,7 +48,7 @@ namespace MvcRichard.Factory
                         // id
                         //part of album It's a beautiful day in the neighboorhood
                         // change this value each time
-                        cmd.Parameters.Add("@PartOfAlbum", SqlDbType.Int).Value = 234;
+                        cmd.Parameters.Add("@PartOfAlbum", SqlDbType.Int).Value = 236;
 
 
                         con.Open();

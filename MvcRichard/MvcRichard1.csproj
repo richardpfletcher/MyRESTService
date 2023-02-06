@@ -303,6 +303,7 @@
     <Compile Include="Factory\LoadKeysShamanism.cs" />
     <Compile Include="Factory\LoadKeysSound.cs" />
     <Compile Include="Factory\LoadKeysSparkTales.cs" />
+    <Compile Include="Factory\LoadKeysSpinoza.cs" />
     <Compile Include="Factory\LoadKeysStarDust.cs" />
     <Compile Include="Factory\LoadKeysStorytelling.cs" />
     <Compile Include="Factory\LoadKeysSuperBowl.cs" />
@@ -1197,6 +1198,8 @@
     <Content Include="Views\Books\Zoran.cshtml" />
     <Content Include="Views\CD2023\CD112.Mobile.cshtml" />
     <Content Include="Views\CD2023\CD112.cshtml" />
+    <Content Include="Views\Books\Spinoza.Mobile.cshtml" />
+    <Content Include="Views\Books\Spinoza.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
