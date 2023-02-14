@@ -6,7 +6,7 @@ namespace MvcRichard.Factory
 {
     internal class LoadKeysHeartOfGold
     {
-        private static LoadKeysHeartOfGold _instance;
+        //private static LoadKeysHeartOfGold _instance;
 
         public static List<BookModel> list = new List<BookModel>();
         public int counter;
