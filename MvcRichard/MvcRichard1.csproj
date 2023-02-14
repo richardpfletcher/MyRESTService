@@ -273,6 +273,7 @@
     <Compile Include="Factory\LoadKeysHeartOfGold.cs" />
     <Compile Include="Factory\LoadKeysHuman.cs" />
     <Compile Include="Factory\LoadKeysInnerharmony.cs" />
+    <Compile Include="Factory\LoadKeysInnovators.cs" />
     <Compile Include="Factory\LoadKeysJaiJinendra.cs" />
     <Compile Include="Factory\LoadKeysJatakaTales.cs" />
     <Compile Include="Factory\LoadKeysJourney.cs" />
@@ -294,6 +295,7 @@
     <Compile Include="Factory\LoadKeysOnce.cs" />
     <Compile Include="Factory\LoadKeysOverTheHil.cs" />
     <Compile Include="Factory\LoadKeysPandora.cs" />
+    <Compile Include="Factory\LoadKeysParadoxes.cs" />
     <Compile Include="Factory\LoadKeysParyushan2022.cs" />
     <Compile Include="Factory\LoadKeysPolitics.cs" />
     <Compile Include="Factory\LoadKeysPuzzle.cs" />
@@ -750,6 +752,8 @@
     <Content Include="Views\Books\What.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
+    <Content Include="Views\Books\Yoga.cshtml" />
+    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -1200,6 +1204,10 @@
     <Content Include="Views\CD2023\CD112.cshtml" />
     <Content Include="Views\Books\Spinoza.Mobile.cshtml" />
     <Content Include="Views\Books\Spinoza.cshtml" />
+    <Content Include="Views\Books\Paradoxes.Mobile.cshtml" />
+    <Content Include="Views\Books\Paradoxes.cshtml" />
+    <Content Include="Views\Books\Innovators.Mobile.cshtml" />
+    <Content Include="Views\Books\Innovators.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
