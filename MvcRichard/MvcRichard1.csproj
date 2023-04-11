@@ -266,7 +266,9 @@
     <Compile Include="Factory\LoadKeysFromMeToWe.cs" />
     <Compile Include="Factory\LoadKeysGaia.cs" />
     <Compile Include="Factory\LoadKeysGarden.cs" />
+    <Compile Include="Factory\LoadKeysGather.cs" />
     <Compile Include="Factory\LoadKeysGita.cs" />
+    <Compile Include="Factory\LoadKeysHacks.cs" />
     <Compile Include="Factory\LoadKeysHappiness.cs" />
     <Compile Include="Factory\LoadKeysHardwired.cs" />
     <Compile Include="Factory\LoadKeysHarmony.cs" />
@@ -303,6 +305,7 @@
     <Compile Include="Factory\LoadKeysRecalibration.cs" />
     <Compile Include="Factory\LoadKeysRumi.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
+    <Compile Include="Factory\LoadKeysSleep.cs" />
     <Compile Include="Factory\LoadKeysSound.cs" />
     <Compile Include="Factory\LoadKeysSparkTales.cs" />
     <Compile Include="Factory\LoadKeysSpinoza.cs" />
@@ -752,8 +755,6 @@
     <Content Include="Views\Books\What.Mobile.cshtml" />
     <Content Include="Views\Books\WhoAmI.cshtml" />
     <Content Include="Views\Books\WhoAmI.Mobile.cshtml" />
-    <Content Include="Views\Books\Yoga.cshtml" />
-    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD31.cshtml" />
     <Content Include="Views\CD2018\CD31.Mobile.cshtml" />
     <Content Include="Views\CD2018\CD32.cshtml" />
@@ -1208,6 +1209,12 @@
     <Content Include="Views\Books\Paradoxes.cshtml" />
     <Content Include="Views\Books\Innovators.Mobile.cshtml" />
     <Content Include="Views\Books\Innovators.cshtml" />
+    <Content Include="Views\Books\Sleep.Mobile.cshtml" />
+    <Content Include="Views\Books\Sleep.cshtml" />
+    <Content Include="Views\Books\Gather.Mobile.cshtml" />
+    <Content Include="Views\Books\Gather.cshtml" />
+    <Content Include="Views\Books\Hacks.Mobile.cshtml" />
+    <Content Include="Views\Books\Hacks.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
