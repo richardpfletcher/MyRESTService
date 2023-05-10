@@ -242,9 +242,11 @@
     <Compile Include="Factory\LoadKeysActions.cs" />
     <Compile Include="Factory\LoadKeysAlchemy.cs" />
     <Compile Include="Factory\LoadKeysAuto.cs" />
+    <Compile Include="Factory\LoadKeysBeyond.cs" />
     <Compile Include="Factory\LoadKeysBreathe.cs" />
     <Compile Include="Factory\LoadKeysBrokenRecord.cs" />
     <Compile Include="Factory\LoadKeysCentralSun.cs" />
+    <Compile Include="Factory\LoadKeysChakrasamvara.cs" />
     <Compile Include="Factory\LoadKeysChemist.cs" />
     <Compile Include="Factory\LoadKeysCloudy.cs" />
     <Compile Include="Factory\LoadKeysCorona.cs" />
@@ -1215,6 +1217,10 @@
     <Content Include="Views\Books\Gather.cshtml" />
     <Content Include="Views\Books\Hacks.Mobile.cshtml" />
     <Content Include="Views\Books\Hacks.cshtml" />
+    <Content Include="Views\Books\Beyond.Mobile.cshtml" />
+    <Content Include="Views\Books\Beyond.cshtml" />
+    <Content Include="Views\Books\Chakrasamvara.Mobile.cshtml" />
+    <Content Include="Views\Books\Chakrasamvara.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

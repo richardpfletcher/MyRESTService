@@ -94,6 +94,32 @@ list.Add(new BookModel(counter++, "Hack 9 Dreams"));
             list.Add(new BookModel(counter++, "Mind Movies"));
             list.Add(new BookModel(counter++, "Meditating Upon Your Dreams"));
 
+            list.Add(new BookModel(counter++, "The Law Of Silence"));
+            list.Add(new BookModel(counter++, "The Law Of Cause And Effect"));
+            list.Add(new BookModel(counter++, "The Law Of Laughter"));
+            list.Add(new BookModel(counter++, "The Law Of Giving And Receiving"));
+            list.Add(new BookModel(counter++, "The Law Of Giving And Receiving 2"));
+            list.Add(new BookModel(counter++, "The Law Of Prosperity And Abundance"));
+            list.Add(new BookModel(counter++, "The Law Of Balance"));
+            list.Add(new BookModel(counter++, "The Law Of Balance 2"));
+            list.Add(new BookModel(counter++, "The Law Of "));
+            list.Add(new BookModel(counter++, "The Law Of Rest"));
+            list.Add(new BookModel(counter++, "The Law Of Enlightenment"));
+            list.Add(new BookModel(counter++, "The Law Of Life And Death"));
+            list.Add(new BookModel(counter++, "The Law Of Communication"));
+            list.Add(new BookModel(counter++, "The Law Of Free Will"));
+            list.Add(new BookModel(counter++, "The Law Of Unity"));
+            list.Add(new BookModel(counter++, "The Law Of Kindness"));
+            list.Add(new BookModel(counter++, "The Law Of Practice"));
+            list.Add(new BookModel(counter++, "The Law Of Calibration"));
+            list.Add(new BookModel(counter++, "The Law Of Intuition"));
+            list.Add(new BookModel(counter++, "The Law Of Being"));
+            list.Add(new BookModel(counter++, " Law Of "));
+            list.Add(new BookModel(counter++, "The Law Of Manifestation"));
+            list.Add(new BookModel(counter++, "The Law of Prayer"));
+            list.Add(new BookModel(counter++, "Hatha Yoga"));
+            list.Add(new BookModel(counter++, "Closing"));
+
 
 
 
