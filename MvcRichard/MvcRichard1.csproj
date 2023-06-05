@@ -289,6 +289,7 @@
     <Compile Include="Factory\LoadKeysland.cs" />
     <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
+    <Compile Include="Factory\LoadKeysMirror.cs" />
     <Compile Include="Factory\LoadKeysMonroe.cs" />
     <Compile Include="Factory\LoadKeysMusic.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
@@ -304,6 +305,7 @@
     <Compile Include="Factory\LoadKeysPolitics.cs" />
     <Compile Include="Factory\LoadKeysPuzzle.cs" />
     <Compile Include="Factory\LoadKeysQuantum.cs" />
+    <Compile Include="Factory\LoadKeysQuantumComputing.cs" />
     <Compile Include="Factory\LoadKeysRecalibration.cs" />
     <Compile Include="Factory\LoadKeysRumi.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
@@ -1221,6 +1223,10 @@
     <Content Include="Views\Books\Beyond.cshtml" />
     <Content Include="Views\Books\Chakrasamvara.Mobile.cshtml" />
     <Content Include="Views\Books\Chakrasamvara.cshtml" />
+    <Content Include="Views\Books\QuantumComputing.Mobile.cshtml" />
+    <Content Include="Views\Books\QuantumComputing.cshtml" />
+    <Content Include="Views\Books\Mirror.Mobile.cshtml" />
+    <Content Include="Views\Books\Mirror.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
