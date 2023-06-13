@@ -290,6 +290,7 @@
     <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMirror.cs" />
+    <Compile Include="Factory\LoadKeysMirror2.cs" />
     <Compile Include="Factory\LoadKeysMonroe.cs" />
     <Compile Include="Factory\LoadKeysMusic.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
@@ -1227,6 +1228,8 @@
     <Content Include="Views\Books\QuantumComputing.cshtml" />
     <Content Include="Views\Books\Mirror.Mobile.cshtml" />
     <Content Include="Views\Books\Mirror.cshtml" />
+    <Content Include="Views\Books\Mirror2.Mobile.cshtml" />
+    <Content Include="Views\Books\Mirror2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

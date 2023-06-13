@@ -4027,6 +4027,46 @@ public ActionResult Hacks()
             return View();
         }
 
+        public ActionResult Mirror2()
+        {
+
+
+            LoadKeysMirror2 s1 = LoadKeysMirror2.Instance();
+            List<BookModel> items = LoadKeysMirror2.list;
+
+            String Path = Server.MapPath("/Audio/Books/Mirror2");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Mirror2\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Mirror2/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
 
     }
 }
