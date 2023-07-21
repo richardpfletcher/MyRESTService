@@ -288,6 +288,7 @@
     <Compile Include="Factory\LoadKeysKnowthySelf.cs" />
     <Compile Include="Factory\LoadKeysland.cs" />
     <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
+    <Compile Include="Factory\LoadKeysMadisonAvenue.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMirror.cs" />
     <Compile Include="Factory\LoadKeysMirror2.cs" />
@@ -1230,6 +1231,8 @@
     <Content Include="Views\Books\Mirror2.cshtml" />
     <Content Include="Views\CD2023\CD114.cshtml" />
     <Content Include="Views\CD2023\CD114.Mobile.cshtml" />
+    <Content Include="Views\Books\MadisonAvenue.Mobile.cshtml" />
+    <Content Include="Views\Books\MadisonAvenue.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
