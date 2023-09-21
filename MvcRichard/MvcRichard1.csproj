@@ -249,6 +249,7 @@
     <Compile Include="Factory\LoadKeysChakrasamvara.cs" />
     <Compile Include="Factory\LoadKeysChemist.cs" />
     <Compile Include="Factory\LoadKeysCloudy.cs" />
+    <Compile Include="Factory\LoadKeysCommonSenseIsUncommon.cs" />
     <Compile Include="Factory\LoadKeysCorona.cs" />
     <Compile Include="Factory\LoadKeysCreative.cs" />
     <Compile Include="Factory\LoadKeysDeath.cs" />
@@ -280,6 +281,7 @@
     <Compile Include="Factory\LoadKeysInnovators.cs" />
     <Compile Include="Factory\LoadKeysJaiJinendra.cs" />
     <Compile Include="Factory\LoadKeysJatakaTales.cs" />
+    <Compile Include="Factory\LoadKeysJewelerAndTheTheif.cs" />
     <Compile Include="Factory\LoadKeysJourney.cs" />
     <Compile Include="Factory\LoadKeysKabbalah.cs" />
     <Compile Include="Factory\LoadKeysKindness.cs" />
@@ -318,6 +320,7 @@
     <Compile Include="Factory\LoadKeysSpinoza.cs" />
     <Compile Include="Factory\LoadKeysStarDust.cs" />
     <Compile Include="Factory\LoadKeysStorytelling.cs" />
+    <Compile Include="Factory\LoadKeysSublime.cs" />
     <Compile Include="Factory\LoadKeysSuperBowl.cs" />
     <Compile Include="Factory\LoadKeysSurfing.cs" />
     <Compile Include="Factory\LoadKeysSwan.cs" />
@@ -1236,6 +1239,12 @@
     <Content Include="Views\Books\MadisonAvenue.cshtml" />
     <Content Include="Views\Books\LightSpectrum.Mobile.cshtml" />
     <Content Include="Views\Books\LightSpectrum.cshtml" />
+    <Content Include="Views\Books\JewelerAndTheTheif.Mobile.cshtml" />
+    <Content Include="Views\Books\JewelerAndTheTheif.cshtml" />
+    <Content Include="Views\Books\CommonSenseIsUncommon.Mobile.cshtml" />
+    <Content Include="Views\Books\CommonSenseIsUncommon.cshtml" />
+    <Content Include="Views\Books\Sublime.Mobile.cshtml" />
+    <Content Include="Views\Books\Sublime.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -4148,5 +4148,127 @@ public ActionResult Hacks()
 
             return View();
         }
+
+        public ActionResult JewelerAndTheTheif()
+        {
+
+
+            LoadKeysJewelerAndTheTheif s1 = LoadKeysJewelerAndTheTheif.Instance();
+            List<BookModel> items = LoadKeysJewelerAndTheTheif.list;
+
+            String Path = Server.MapPath("/Audio/Books/JewelerAndTheTheif");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\JewelerAndTheTheif\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/JewelerAndTheTheif/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+        public ActionResult CommonSenseIsUncommon()
+        {
+
+
+            LoadKeysCommonSenseIsUncommon s1 = LoadKeysCommonSenseIsUncommon.Instance();
+            List<BookModel> items = LoadKeysCommonSenseIsUncommon.list;
+
+            String Path = Server.MapPath("/Audio/Books/CommonSenseIsUncommon");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\CommonSenseIsUncommon\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/CommonSenseIsUncommon/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+        public ActionResult Sublime()
+        {
+
+
+            LoadKeysSublime s1 = LoadKeysSublime.Instance();
+            List<BookModel> items = LoadKeysSublime.list;
+
+            String Path = Server.MapPath("/Audio/Books/Sublime");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Sublime\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Sublime/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
     }
 }
