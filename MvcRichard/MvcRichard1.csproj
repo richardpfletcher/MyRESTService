@@ -313,6 +313,7 @@
     <Compile Include="Factory\LoadKeysQuantumComputing.cs" />
     <Compile Include="Factory\LoadKeysRecalibration.cs" />
     <Compile Include="Factory\LoadKeysRumi.cs" />
+    <Compile Include="Factory\LoadKeysSecretOfTheGoldenFlower.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
     <Compile Include="Factory\LoadKeysSleep.cs" />
     <Compile Include="Factory\LoadKeysSound.cs" />
@@ -1245,6 +1246,8 @@
     <Content Include="Views\Books\CommonSenseIsUncommon.cshtml" />
     <Content Include="Views\Books\Sublime.Mobile.cshtml" />
     <Content Include="Views\Books\Sublime.cshtml" />
+    <Content Include="Views\Books\SecretOfTheGoldenFlower.Mobile.cshtml" />
+    <Content Include="Views\Books\SecretOfTheGoldenFlower.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
