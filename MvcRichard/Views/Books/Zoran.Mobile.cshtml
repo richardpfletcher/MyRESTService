@@ -13,15 +13,16 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 col-md-8">
-            
-             <div>
-                <img src="\Audio\Books\Zoran\album.jpg" style="width:300px;height:300px;" alt="album" >
+
+            <div>
+                <img src="\Audio\Books\Zoran\album.jpg" style="width:300px;height:300px;" alt="album">
 
             </div>
-            
+
+
             <div>
-                @*need to enter google drvie for this document*@
-                <a href="https://drive.google.com/open?id=1xUUr-58xdeg6dEQehIjcPbcZbOrRcBU3">Click to Open PDF </a>
+                <a href="\PDF\Books\Zoran\Zoran.pdf" target="_blank">Click to Open PDF </a>
+
             </div>
 
             <p></p>
@@ -33,10 +34,10 @@
                    in (List<MvcRichard.Models.DocumentModel>)ViewData["orderData"])
                 {
 
-                <div>
-                    <a class="btn btn-info" href="@order.PathName">@order.ShortName</a>
-                </div>
-                <p></p>
+                    <div>
+                        <a class="btn btn-info" href="@order.PathName">@order.ShortName</a>
+                    </div>
+                    <p></p>
                 }
             }
             catch

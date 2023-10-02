@@ -1248,6 +1248,10 @@
     <Content Include="Views\Books\Sublime.cshtml" />
     <Content Include="Views\Books\SecretOfTheGoldenFlower.Mobile.cshtml" />
     <Content Include="Views\Books\SecretOfTheGoldenFlower.cshtml" />
+    <Content Include="Views\LifeOfKai.cshtml" />
+    <Content Include="Views\Books\LifeOfKai.cshtml" />
+    <Content Include="Views\Books\Yoga.cshtml" />
+    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
