@@ -10,54 +10,42 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<div class="page-wrapper">
 
-    <div class="row">
-        <div class="col-sm-6">
-            
-             <div>
-                <img src="\Audio\Books\Sublime\album.jpg" style="width:300px;height:300px;" alt="album" >
+@Html.Partial("SearchViewSublime")
 
-            </div>
-            
-            <div>
 
-                <a href="\PDF\Books\Sublime\Sublime.pdf" target="_blank">Click to Open PDF </a>
-            </div>
 
-            <p></p>
 
-            @try
-            {
+<script language="javascript" type="text/javascript">
+    function GetTopic() {
 
-                foreach (MvcRichard.Models.DocumentModel order
-                   in (List<MvcRichard.Models.DocumentModel>)ViewData["orderData"])
-                {
+        var e = document.getElementById("dowList");
+        var value = e.options[e.selectedIndex].value;
+        var text = e.options[e.selectedIndex].text;
 
-                <div>
-                    <div>
-                        @order.ShortName
-                    </div>
-                    <div>
-                        <audio controls>
 
-                            <source src="@order.PathName" type="audio/wav">
-                            Your browser does not support the audio element.
-                        </audio>
-                    </div>
-                </div>
-                }
+        //var x = document.getElementById("divone");
+        //x.style.display = "none";
+
+
+
+        $.ajax({
+            url: "/Books/Sublime",
+            data: { chapter: value },
+            //cache: true,
+            dataType: "html",
+            success: function (result) {
+                var domElement = $(result); // create element from html
+                $("#centerdivResults").empty().append(domElement); // append to end of list
+
             }
-            catch
-            {
-            }
-        </div>
-        <div class="col-sm-6">
-            <div>
-                <object data="\PDF\Books\Sublime\Sublime.pdf" width="700" height="800" type="application/pdf">
-                    alt : <a href="\PDF\Books\Sublime\Sublime.pdf">You are the Sublime</a>
-                </object>
-            </div>
-        </div>
-    </div>
-</div>
+
+        });
+
+
+        return;
+
+    }
+</script>
+
+

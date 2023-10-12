@@ -1297,6 +1297,7 @@ namespace MvcRichard.Controllers
             }
 
 
+
             ViewData["ethnicData"] = itemsAge;
 
             string chap = chapter;
@@ -4230,11 +4231,37 @@ public ActionResult Hacks()
             return View();
         }
 
-        public ActionResult Sublime()
+        public ActionResult Sublime(string chapter)
         {
 
 
-            LoadKeysSublime s1 = LoadKeysSublime.Instance();
+            string[] AgeRagne = new string[] { "Please Select one", "Sublime", "Sublime Kabir and the Sublime", "Hafiz A Master of Persian Poetry and Mysticism", "Sublime Rumi", "Sublime Poets, Mystics and Teachers", "Sublime Elixers that Exist inside of you" };
+
+
+            List<SelectListItem> itemsAge = new List<SelectListItem>();
+            for (int i = 0; i < AgeRagne.Length; i++)
+            {
+
+
+                itemsAge.Add(new SelectListItem { Text = AgeRagne[i], Value = AgeRagne[i] });
+            }
+
+            foreach (SelectListItem s in itemsAge)
+            {
+                if (s.Value == chapter)
+                {
+                    s.Selected = true;
+                }
+            }
+
+
+
+            ViewData["ethnicData"] = itemsAge;
+
+            string chap = chapter;
+            //LoadKeysSublime s1 = LoadKeysSublime.Instance(chapter);
+            LoadKeysSublime s1 = new LoadKeysSublime(chapter);
+            //s1.chapter = chapter;
             List<BookModel> items = LoadKeysSublime.list;
 
             String Path = Server.MapPath("/Audio/Books/Sublime");
@@ -4257,6 +4284,9 @@ public ActionResult Hacks()
                     if (shortname.ToUpper() == data.Chapter.ToUpper())
                     {
                         list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Sublime\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Sublime/" + fullname));
+                        //InsertRecords myInsertRecords = new InsertRecords();
+                        //myInsertRecords.loadData(list);
+
                         break;
                     }
                 }
@@ -4268,8 +4298,11 @@ public ActionResult Hacks()
 
             ViewData["orderData"] = list;
 
-            return View();
+            //return View();
+            return PartialView("Sublime");
+
         }
+
 
         public ActionResult SecretOfTheGoldenFlower()
         {
@@ -4287,6 +4320,14 @@ public ActionResult Hacks()
             {
                 foreach (string path in FileNames) //iterate the file list
                 {
+
+
+
+
+
+
+
+
                     string x = path;
 
                     // Find the last occurrence of N.
@@ -4297,6 +4338,7 @@ public ActionResult Hacks()
 
                     if (shortname.ToUpper() == data.Chapter.ToUpper())
                     {
+ 
                         list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\SecretOfTheGoldenFlower\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/SecretOfTheGoldenFlower/" + fullname));
                         break;
                     }

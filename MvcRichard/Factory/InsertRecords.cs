@@ -16,11 +16,6 @@ namespace MvcRichard.Factory
             var conString1 = ConfigurationManager.ConnectionStrings["LocalEvolution"];
             string connString = conString1.ConnectionString;
 
-
-           
-
-
-
             foreach (var item in list)
             {
 
@@ -48,7 +43,7 @@ namespace MvcRichard.Factory
                         // id
                         //part of album It's a beautiful day in the neighboorhood
                         // change this value each time
-                        cmd.Parameters.Add("@PartOfAlbum", SqlDbType.Int).Value = 252;
+                        cmd.Parameters.Add("@PartOfAlbum", SqlDbType.Int).Value = 258;
 
 
                         con.Open();
