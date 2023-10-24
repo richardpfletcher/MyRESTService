@@ -291,6 +291,7 @@
     <Compile Include="Factory\LoadKeysland.cs" />
     <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
     <Compile Include="Factory\LoadKeysLightSpectrum.cs" />
+    <Compile Include="Factory\LoadKeysLongevity.cs" />
     <Compile Include="Factory\LoadKeysMadisonAvenue.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
     <Compile Include="Factory\LoadKeysMirror.cs" />
@@ -1249,9 +1250,9 @@
     <Content Include="Views\Books\SecretOfTheGoldenFlower.cshtml" />
     <Content Include="Views\LifeOfKai.cshtml" />
     <Content Include="Views\Books\LifeOfKai.cshtml" />
-    <Content Include="Views\Books\Yoga.cshtml" />
-    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\Shared\SearchViewSublime.cshtml" />
+    <Content Include="Views\Books\Longevity.cshtml" />
+    <Content Include="Views\Books\Longevity.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
