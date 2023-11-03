@@ -258,6 +258,7 @@
     <Compile Include="Factory\LoadKeysDragons.cs" />
     <Compile Include="Factory\LoadKeysDragonsNaropa .cs" />
     <Compile Include="Factory\LoadKeysDragonsNaropa2.cs" />
+    <Compile Include="Factory\LoadKeysDragonsQuantum.cs" />
     <Compile Include="Factory\LoadKeysDreams.cs" />
     <Compile Include="Factory\LoadKeysDreamTime.cs" />
     <Compile Include="Factory\LoadKeysEconomics.cs" />
@@ -1253,6 +1254,8 @@
     <Content Include="Views\Shared\SearchViewSublime.cshtml" />
     <Content Include="Views\Books\Longevity.cshtml" />
     <Content Include="Views\Books\Longevity.Mobile.cshtml" />
+    <Content Include="Views\Books\DragonsQuantum.Mobile.cshtml" />
+    <Content Include="Views\Books\DragonsQuantum.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
