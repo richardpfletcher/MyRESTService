@@ -4424,13 +4424,16 @@ public ActionResult Hacks()
                     {
 
                         list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\DragonsQuantum\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/DragonsQuantum/" + fullname));
+                        //InsertRecords myInsertRecords = new InsertRecords();
+                        //myInsertRecords.loadData(list);
+
                         break;
                     }
                 }
             }
 
-            //InsertRecords myInsertRecords = new InsertRecords();
-            //myInsertRecords.loadData(list);
+            InsertRecords myInsertRecords = new InsertRecords();
+            myInsertRecords.loadData(list);
 
 
             ViewData["orderData"] = list;
