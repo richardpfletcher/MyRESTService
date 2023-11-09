@@ -4382,6 +4382,9 @@ public ActionResult Hacks()
                     {
 
                         list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Longevity\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Longevity/" + fullname));
+                        //InsertRecords myInsertRecords = new InsertRecords();
+                        //myInsertRecords.loadData(list);
+
                         break;
                     }
                 }
@@ -4424,6 +4427,51 @@ public ActionResult Hacks()
                     {
 
                         list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\DragonsQuantum\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/DragonsQuantum/" + fullname));
+                        //InsertRecords myInsertRecords = new InsertRecords();
+                        //myInsertRecords.loadData(list);
+
+                        break;
+                    }
+                }
+            }
+
+            InsertRecords myInsertRecords = new InsertRecords();
+            myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+        public ActionResult DragonsShaolin()
+        {
+
+
+            LoadKeysDragonsShaolin s1 = LoadKeysDragonsShaolin.Instance();
+            List<BookModel> items = LoadKeysDragonsShaolin.list;
+
+            String Path = Server.MapPath("/Audio/Books/DragonsShaolin");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\DragonsShaolin\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/DragonsShaolin/" + fullname));
                         //InsertRecords myInsertRecords = new InsertRecords();
                         //myInsertRecords.loadData(list);
 
