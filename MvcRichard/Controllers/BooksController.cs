@@ -4480,8 +4480,8 @@ public ActionResult Hacks()
                 }
             }
 
-            InsertRecords myInsertRecords = new InsertRecords();
-            myInsertRecords.loadData(list);
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
 
 
             ViewData["orderData"] = list;
