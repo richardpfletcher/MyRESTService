@@ -279,6 +279,7 @@
     <Compile Include="Factory\LoadKeysHarmony.cs" />
     <Compile Include="Factory\LoadKeysHeartOfGold.cs" />
     <Compile Include="Factory\LoadKeysHuman.cs" />
+    <Compile Include="Factory\LoadKeysInnerAlchemy.cs" />
     <Compile Include="Factory\LoadKeysInnerharmony.cs" />
     <Compile Include="Factory\LoadKeysInnovators.cs" />
     <Compile Include="Factory\LoadKeysJaiJinendra.cs" />
@@ -319,6 +320,7 @@
     <Compile Include="Factory\LoadKeysSecretOfTheGoldenFlower.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
     <Compile Include="Factory\LoadKeysSleep.cs" />
+    <Compile Include="Factory\LoadKeysSocialSecurity.cs" />
     <Compile Include="Factory\LoadKeysSound.cs" />
     <Compile Include="Factory\LoadKeysSparkTales.cs" />
     <Compile Include="Factory\LoadKeysSpinoza.cs" />
@@ -336,6 +338,7 @@
     <Compile Include="Factory\LoadKeysTransformation.cs" />
     <Compile Include="Factory\LoadKeysTricks.cs" />
     <Compile Include="Factory\LoadKeysUniverse.cs" />
+    <Compile Include="Factory\LoadKeysVagusNerve.cs" />
     <Compile Include="Factory\LoadKeysWar.cs" />
     <Compile Include="Factory\LoadKeysWestCoast.cs" />
     <Compile Include="Factory\LoadKeysWhat.cs" />
@@ -1259,6 +1262,12 @@
     <Content Include="Views\Books\DragonsQuantum.cshtml" />
     <Content Include="Views\Books\DragonsShaolin.Mobile.cshtml" />
     <Content Include="Views\Books\DragonsShaolin.cshtml" />
+    <Content Include="Views\Books\InnerAlchemy.Mobile.cshtml" />
+    <Content Include="Views\Books\InnerAlchemy.cshtml" />
+    <Content Include="Views\Books\VagusNerve.cshtml" />
+    <Content Include="Views\Books\VagusNerve.Mobile.cshtml" />
+    <Content Include="Views\Books\SocialSecurity.Mobile.cshtml" />
+    <Content Include="Views\Books\SocialSecurity.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

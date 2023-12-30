@@ -4488,5 +4488,140 @@ public ActionResult Hacks()
 
             return View();
         }
+        public ActionResult InnerAlchemy()
+        {
+
+
+            LoadKeysInnerAlchemy s1 = LoadKeysInnerAlchemy.Instance();
+            List<BookModel> items = LoadKeysInnerAlchemy.list;
+
+            String Path = Server.MapPath("/Audio/Books/InnerAlchemy");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\InnerAlchemy\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/InnerAlchemy/" + fullname));
+                        //InsertRecords myInsertRecords = new InsertRecords();
+                        //myInsertRecords.loadData(list);
+
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+        public ActionResult VagusNerve()
+        {
+
+
+            LoadKeysVagusNerve s1 = LoadKeysVagusNerve.Instance();
+            List<BookModel> items = LoadKeysVagusNerve.list;
+
+            String Path = Server.MapPath("/Audio/Books/VagusNerve");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\VagusNerve\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/VagusNerve/" + fullname));
+                        //InsertRecords myInsertRecords = new InsertRecords();
+                        //myInsertRecords.loadData(list);
+
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+        public ActionResult SocialSecurity()
+        {
+
+
+            LoadKeysSocialSecurity s1 = LoadKeysSocialSecurity.Instance();
+            List<BookModel> items = LoadKeysSocialSecurity.list;
+
+            String Path = Server.MapPath("/Audio/Books/SocialSecurity");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\SocialSecurity\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/SocialSecurity/" + fullname));
+                        //InsertRecords myInsertRecords = new InsertRecords();
+                        //myInsertRecords.loadData(list);
+
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
     }
 }
