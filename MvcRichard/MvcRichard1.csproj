@@ -934,6 +934,7 @@
     <Content Include="Views\Sayings\Sayings15.cshtml" />
     <Content Include="Views\Sayings\Sayings15.Mobile.cshtml" />
     <Content Include="Views\Search\index.cshtml" />
+    <Content Include="Views\Shared\SearchViewSublime.cshtml" />
     <Content Include="Views\Talks\Talks2017.cshtml" />
     <Content Include="Views\Talks\Talks2017.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2019.cshtml" />
@@ -1255,7 +1256,6 @@
     <Content Include="Views\Books\SecretOfTheGoldenFlower.cshtml" />
     <Content Include="Views\LifeOfKai.cshtml" />
     <Content Include="Views\Books\LifeOfKai.cshtml" />
-    <Content Include="Views\Shared\SearchViewSublime.cshtml" />
     <Content Include="Views\Books\Longevity.cshtml" />
     <Content Include="Views\Books\Longevity.Mobile.cshtml" />
     <Content Include="Views\Books\DragonsQuantum.Mobile.cshtml" />
@@ -1268,6 +1268,8 @@
     <Content Include="Views\Books\VagusNerve.Mobile.cshtml" />
     <Content Include="Views\Books\SocialSecurity.Mobile.cshtml" />
     <Content Include="Views\Books\SocialSecurity.cshtml" />
+    <Content Include="Views\Shared\SearchViewInnerHarmony.cshtml" />
+    <Content Include="Views\Shared\SearchView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

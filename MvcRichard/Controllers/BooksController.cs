@@ -2879,14 +2879,40 @@ namespace MvcRichard.Controllers
             return View();
 
         }
-        public ActionResult Innerharmony()
+        public ActionResult InnerHarmony(string chapter)
         {
 
 
-            LoadKeysInnerharmony s1 = LoadKeysInnerharmony.Instance();
-            List<BookModel> items = LoadKeysInnerharmony.list;
+            string[] AgeRagne = new string[] { "Please Select one", "Books before 2023", "Books written 2023", "Books written 2024" };
 
-            String Path = Server.MapPath("/Audio/Books/Innerharmony");
+
+            List<SelectListItem> itemsAge = new List<SelectListItem>();
+            for (int i = 0; i < AgeRagne.Length; i++)
+            {
+
+
+                itemsAge.Add(new SelectListItem { Text = AgeRagne[i], Value = AgeRagne[i] });
+            }
+
+            foreach (SelectListItem s in itemsAge)
+            {
+                if (s.Value == chapter)
+                {
+                    s.Selected = true;
+                }
+            }
+
+
+
+            ViewData["ethnicData"] = itemsAge;
+
+            string chap = chapter;
+            //LoadKeysInnerHarmony s1 = LoadKeysInnerHarmony.Instance(chapter);
+            LoadKeysInnerHarmony s1 = new LoadKeysInnerHarmony(chapter);
+            //s1.chapter = chapter;
+            List<BookModel> items = LoadKeysInnerHarmony.list;
+
+            String Path = Server.MapPath("/Audio/Books/InnerHarmony");
             String[] FileNames = Directory.GetFiles(Path);
 
             List<DocumentModel> list = new List<DocumentModel>();
@@ -2905,7 +2931,7 @@ namespace MvcRichard.Controllers
 
                     if (shortname.ToUpper() == data.Chapter.ToUpper())
                     {
-                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Innerharmony\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Innerharmony/" + fullname));
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\InnerHarmony\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/InnerHarmony/" + fullname));
                         break;
                     }
                 }
@@ -2917,7 +2943,9 @@ namespace MvcRichard.Controllers
 
             ViewData["orderData"] = list;
 
-            return View();
+            //return View();
+            return PartialView("InnerHarmony");
+
         }
 
         public ActionResult What()
