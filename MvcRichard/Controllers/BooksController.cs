@@ -4651,5 +4651,47 @@ public ActionResult Hacks()
 
             return View();
         }
+        public ActionResult Dental()
+        {
+
+
+            LoadKeysDental s1 = LoadKeysDental.Instance();
+            List<BookModel> items = LoadKeysDental.list;
+
+            String Path = Server.MapPath("/Audio/Books/Dental");
+            String[] FileNames = Directory.GetFiles(Path);
+
+            List<DocumentModel> list = new List<DocumentModel>();
+
+            foreach (var data in items) //iterate the file list
+            {
+                foreach (string path in FileNames) //iterate the file list
+                {
+                    string x = path;
+
+                    // Find the last occurrence of N.
+                    int index1 = x.LastIndexOf('\\');
+                    string fullname = x.Substring(index1 + 1);
+
+                    string shortname = fullname.Substring(0, fullname.Length - 4);
+
+                    if (shortname.ToUpper() == data.Chapter.ToUpper())
+                    {
+                        list.Add(new DocumentModel(fullname, shortname, "\\Audio\\Books\\Dental\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/Books/Dental/" + fullname));
+                        break;
+                    }
+                }
+            }
+
+            //InsertRecords myInsertRecords = new InsertRecords();
+            //myInsertRecords.loadData(list);
+
+
+            ViewData["orderData"] = list;
+
+            return View();
+        }
+
+
     }
 }

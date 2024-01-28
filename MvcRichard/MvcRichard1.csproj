@@ -254,6 +254,7 @@
     <Compile Include="Factory\LoadKeysCreative.cs" />
     <Compile Include="Factory\LoadKeysDeath.cs" />
     <Compile Include="Factory\LoadKeysDefinition.cs" />
+    <Compile Include="Factory\LoadKeysDental.cs" />
     <Compile Include="Factory\LoadKeysDraconis.cs" />
     <Compile Include="Factory\LoadKeysDragons.cs" />
     <Compile Include="Factory\LoadKeysDragonsNaropa .cs" />
@@ -1270,6 +1271,8 @@
     <Content Include="Views\Books\SocialSecurity.cshtml" />
     <Content Include="Views\Shared\SearchViewInnerHarmony.cshtml" />
     <Content Include="Views\Shared\SearchView.cshtml" />
+    <Content Include="Views\Books\Dental.Mobile.cshtml" />
+    <Content Include="Views\Books\Dental.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
