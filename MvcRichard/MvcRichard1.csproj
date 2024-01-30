@@ -688,6 +688,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\evolution\ctrlsearch.js" />
     <Content Include="Scripts\evolution\ctrlsearchMobile.js" />
+    <Content Include="Scripts\evolution\PlayAudio.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery.mobile-1.4.5.js" />
