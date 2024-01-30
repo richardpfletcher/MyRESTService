@@ -1273,6 +1273,7 @@
     <Content Include="Views\Shared\SearchView.cshtml" />
     <Content Include="Views\Books\Dental.Mobile.cshtml" />
     <Content Include="Views\Books\Dental.cshtml" />
+    <Content Include="Views\CD2022\CD106.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
