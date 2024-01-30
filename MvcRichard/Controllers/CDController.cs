@@ -98,7 +98,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname != "album")
+                if (shortname != "Intro" && shortname != "album" && shortname != "orginal")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD2\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD2/" + fullname));
                 }
