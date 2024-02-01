@@ -1275,6 +1275,13 @@
     <Content Include="Views\Books\Dental.Mobile.cshtml" />
     <Content Include="Views\Books\Dental.cshtml" />
     <Content Include="Views\CD2022\CD106.cshtml" />
+    <Content Include="Views\Books\Yoga.cshtml" />
+    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
+    <Content Include="Views\Books\TeachingsOfTheDragons.cshtml" />
+    <Content Include="Views\Books\TeachingsOfTheDragons.Mobile.cshtml" />
+    <Content Include="Views\Books\Puzzle.cshtml" />
+    <Content Include="Views\Books\Puzzle.Mobile.cshtml" />
+    <Content Include="Views\Talks\Talks2022.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

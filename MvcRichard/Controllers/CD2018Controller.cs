@@ -41,7 +41,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD30\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD30/" + fullname));
                 }
@@ -118,7 +118,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD31\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD31/" + fullname));
                 }

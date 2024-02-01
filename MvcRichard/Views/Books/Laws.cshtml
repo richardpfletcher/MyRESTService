@@ -35,27 +35,27 @@
                 foreach (MvcRichard.Models.DocumentModel order
                    in (List<MvcRichard.Models.DocumentModel>)ViewData["orderData"])
                 {
-        <div>
-            @order.ShortName
-        </div>
-        <div>
-            @{
-                clip = "audio" + counter;
-            }
+                    <div>
+                        @order.ShortName
+                    </div>
+                    <div>
+                        @{
+                            clip = "audio" + counter;
+                        }
 
 
-            <audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
+                        <audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
 
 
-                <source src="@order.PathName" type="audio/wav">
-                Your browser does not support the audio element.
+                            <source src="@order.PathName" type="audio/wav">
+                            Your browser does not support the audio element.
 
-            </audio>
-            @{
-                counter++;
-            }
+                        </audio>
+                        @{
+                            counter++;
+                        }
 
-        </div>
+                    </div>
                 }
             }
             catch

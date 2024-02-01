@@ -1273,6 +1273,8 @@ namespace MvcRichard.Controllers
 
         [Route("/{chapter}")]
 
+        //Please Select one
+
         public ActionResult HeartOfGold(string chapter)
         {
 
@@ -2879,6 +2881,8 @@ namespace MvcRichard.Controllers
             return View();
 
         }
+
+        //Please Select one
         public ActionResult InnerHarmony(string chapter)
         {
 
@@ -4259,6 +4263,7 @@ public ActionResult Hacks()
             return View();
         }
 
+        //Please Select one
         public ActionResult Sublime(string chapter)
         {
 
