@@ -196,7 +196,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD32\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD32/" + fullname));
                 }
@@ -273,7 +273,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD33\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD33/" + fullname));
                 }
@@ -349,7 +349,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD34\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD34/" + fullname));
                 }
@@ -426,7 +426,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD35\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD35/" + fullname));
                 }
@@ -503,7 +503,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD36\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD36/" + fullname));
                 }
@@ -580,7 +580,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL") 
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD37\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD37/" + fullname));
                 }
@@ -658,7 +658,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD38\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD38/" + fullname));
                 }
@@ -734,7 +734,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD39\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD39/" + fullname));
                 }
@@ -811,7 +811,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD40\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD40/" + fullname));
                 }
@@ -887,7 +887,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD41\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD41/" + fullname));
                 }
@@ -963,7 +963,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD42\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD42/" + fullname));
                 }
@@ -1039,7 +1039,7 @@ namespace MvcRichard.Controllers
 
                 string shortname = fullname.Substring(0, fullname.Length - 4);
 
-                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM")
+                if (shortname != "Intro" && shortname.ToUpper() != "ALBUM" && shortname.ToUpper() != "ORGINAL")
                 {
                     list.Add(new DocumentModel(fullname, shortname, "\\Audio\\CD\\CD43\\" + fullname, "http://www.evolutionrevolutionoflove.com/Audio/CD/CD43/" + fullname));
                 }
