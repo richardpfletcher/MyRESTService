@@ -222,6 +222,7 @@
     <Compile Include="Controllers\EvolutionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HouseOfTheFutureController.cs" />
+    <Compile Include="Controllers\JohnsMusicController.cs" />
     <Compile Include="Controllers\PartOfAlbumController.cs" />
     <Compile Include="Controllers\Sayings2018Controller.cs" />
     <Compile Include="Controllers\Sayings2019Controller.cs" />
@@ -241,6 +242,7 @@
     <Compile Include="Factory\LoadKeys.cs" />
     <Compile Include="Factory\LoadKeysActions.cs" />
     <Compile Include="Factory\LoadKeysAlchemy.cs" />
+    <Compile Include="Factory\LoadKeysAnatomy.cs" />
     <Compile Include="Factory\LoadKeysAuto.cs" />
     <Compile Include="Factory\LoadKeysBeyond.cs" />
     <Compile Include="Factory\LoadKeysBreathe.cs" />
@@ -320,6 +322,7 @@
     <Compile Include="Factory\LoadKeysRumi.cs" />
     <Compile Include="Factory\LoadKeysSecretOfTheGoldenFlower.cs" />
     <Compile Include="Factory\LoadKeysShamanism.cs" />
+    <Compile Include="Factory\LoadKeysSkyGazing.cs" />
     <Compile Include="Factory\LoadKeysSleep.cs" />
     <Compile Include="Factory\LoadKeysSocialSecurity.cs" />
     <Compile Include="Factory\LoadKeysSound.cs" />
@@ -1275,13 +1278,17 @@
     <Content Include="Views\Books\Dental.Mobile.cshtml" />
     <Content Include="Views\Books\Dental.cshtml" />
     <Content Include="Views\CD2022\CD106.cshtml" />
-    <Content Include="Views\Books\Yoga.cshtml" />
-    <Content Include="Views\Books\Yoga.Mobile.cshtml" />
     <Content Include="Views\Books\TeachingsOfTheDragons.cshtml" />
     <Content Include="Views\Books\TeachingsOfTheDragons.Mobile.cshtml" />
     <Content Include="Views\Books\Puzzle.cshtml" />
     <Content Include="Views\Books\Puzzle.Mobile.cshtml" />
     <Content Include="Views\Talks\Talks2022.cshtml" />
+    <Content Include="Views\Books\Anatomy.Mobile.cshtml" />
+    <Content Include="Views\Books\Anatomy.cshtml" />
+    <Content Include="Views\Books\SkyGazing.Mobile.cshtml" />
+    <Content Include="Views\Books\SkyGazing.cshtml" />
+    <Content Include="Views\JohnsMusic\Series110.cshtml" />
+    <Content Include="Views\JohnsMusic\JohnsMusicMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
