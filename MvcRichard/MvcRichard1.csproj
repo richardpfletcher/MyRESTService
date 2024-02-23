@@ -303,6 +303,7 @@
     <Compile Include="Factory\LoadKeysMirror.cs" />
     <Compile Include="Factory\LoadKeysMirror2.cs" />
     <Compile Include="Factory\LoadKeysMonroe.cs" />
+    <Compile Include="Factory\LoadKeysMudras.cs" />
     <Compile Include="Factory\LoadKeysMusic.cs" />
     <Compile Include="Factory\LoadKeysMysticalAdventures.cs" />
     <Compile Include="Factory\LoadKeysNaropa.cs" />
@@ -1289,6 +1290,8 @@
     <Content Include="Views\Books\SkyGazing.cshtml" />
     <Content Include="Views\JohnsMusic\Series110.cshtml" />
     <Content Include="Views\JohnsMusic\JohnsMusicMenu.cshtml" />
+    <Content Include="Views\Books\Mudras.Mobile.cshtml" />
+    <Content Include="Views\Books\Mudras.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
