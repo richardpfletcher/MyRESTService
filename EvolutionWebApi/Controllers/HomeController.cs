@@ -14,5 +14,11 @@ namespace EvolutionWebApi.Controllers
 
             return View();
         }
+        public ActionResult IndexImages()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
     }
 }

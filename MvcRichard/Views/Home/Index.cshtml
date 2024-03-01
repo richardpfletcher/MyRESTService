@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Evolution Revolution of love";
+    //ViewBag.Title = "Evolution Revolution of love";
 }
 
 <!DOCTYPE html>
@@ -23,70 +23,78 @@
 
                 <h3>We Suggest The Following:</h3>
 
-@try
-{
-    string str = System.Configuration.ConfigurationManager.AppSettings["env"];
-    str = str + "/Mp4";
-    var calc = str + "/TheGreatCalculator.mp4";
 
-    <div>
-        <a target="_blank" class="btn btn-info" href="@calc">The Great Calculator Video Full Screen</a>
-    </div>
+                @try
+                {
+                    string str = System.Configuration.ConfigurationManager.AppSettings["env"];
+                    str = str + "/Mp4";
+                    var calc = str + "/TheGreatCalculator.mp4";
 
-
-    <p></p>
-}
-catch
-{
-}
-
-         
-
-            <ol class="round">
-
-                <li class="one">
-                    <h5>Listen To or read the poems  </h5>
-                    <p>
-                        <a class="btn btn-info" href="/CD/CDMenu/">Go to Poems</a>
-                    </p>
-                    <aside>
-                    </aside>
-                </li>
-
-                <li class="two">
-                    <h5>Listen To or read the books</h5>
-                    <p>
-                        Take your time and enjoy. <a class="btn btn-info" href="/Books/BooksMenu">Go to Books Menu</a>
-                    </p>
-                </li>
-
-                <li class="three">
-                    <h5>Listen To The Talks</h5>
-                    <p>
-                        Listen to the talks. They may help you to understand more. <a class="btn btn-info" href="/Talks/TalksMenu">Go to Talks </a>
-                    </p>
-                </li>
-
-                <li class="four">
-                    <h5>Listen To This Audio</h5>
                     <div>
-                        <audio controls>
-
-                            <source src="\Audio\Talks\Talks2017\2-24-2017.mp3" type="audio/wav">
-                            Your browser does not support the audio element.
-                        </audio>
+                        <a target="_blank" class="btn btn-info" href="@calc">The Great Calculator Video Full Screen</a>
                     </div>
-                </li>
-
-                <li class="five">
-                    <h5>Family and Friends Stories & Receipes</h5>
-                    <p>
-                        My hobby is ethnic food cooking. Come and join me on this journey <a target="_blank" class="btn btn-info" href="https://evolutionrevolutionoflove.com/PDF/Books/FamilyCooking/FamilyCooking.pdf">Family and Friends Stories and Receipes.  </a>
-                    </p>
-                </li>
 
 
-            </ol>
+                    <p></p>
+                }
+                catch
+                {
+                }
+
+
+
+                <ol class="round">
+
+                    <li class="one">
+                        <h5>Listen To or read the poems  </h5>
+                        <p>
+                            <a class="btn btn-info" href="/CD/CDMenu/">Go to Poems</a>
+                        </p>
+                        <aside>
+                        </aside>
+                    </li>
+
+                    <li class="two">
+                        <h5>Listen To or read the books</h5>
+                        <p>
+                            Take your time and enjoy. <a class="btn btn-info" href="/Books/BooksMenu">Go to Books Menu</a>
+                        </p>
+                    </li>
+
+                    <li class="three">
+                        <h5>Listen To The Talks</h5>
+                        <p>
+                            Listen to the talks. They may help you to understand more. <a class="btn btn-info" href="/Talks/TalksMenu">Go to Talks </a>
+                        </p>
+                    </li>
+
+                    <li class="four">
+                        <h5>Listen To This Audio</h5>
+                        <div>
+                            <audio controls>
+
+                                <source src="\Audio\Talks\Talks2017\2-24-2017.mp3" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </li>
+
+                    <li class="five">
+                        <h5>Family and Friends Stories & Receipes</h5>
+                        <p>
+                            My hobby is ethnic food cooking. Come and join me on this journey <a target="_blank" class="btn btn-info" href="https://evolutionrevolutionoflove.com/PDF/Books/FamilyCooking/FamilyCooking.pdf">Family and Friends Stories and Receipes.  </a>
+                        </p>
+                    </li>
+
+
+                </ol>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/p41JLdpIqes">
+                </iframe>
+               
+                <div>
+
+                    <a href="PDF\Books\Mirror\Fletcher%20Soul%20Traveler.pdf" target="_blank">Click to Open PDF </a>
+                </div>
             </div>
         </div>
     </div>
