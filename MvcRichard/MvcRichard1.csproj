@@ -355,6 +355,7 @@
     <Compile Include="Factory\Update.cs" />
     <Compile Include="Factory\UppercaseFirst.cs" />
     <Compile Include="Factory\URLInfo.cs" />
+    <Compile Include="Factory\youtubeUrL.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -917,6 +918,7 @@
     <Content Include="Views\CD\CD28.Mobile.cshtml" />
     <Content Include="Views\CD\CD29.cshtml" />
     <Content Include="Views\CD\CD29.Mobile.cshtml" />
+    <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Sayings2018\Sayings16.cshtml" />
     <Content Include="Views\Sayings2018\Sayings16.Mobile.cshtml" />
     <Content Include="Views\Sayings2018\Sayings17.cshtml" />
@@ -1002,7 +1004,6 @@
     <Content Include="Views\Sayings\Sayings11.cshtml" />
     <Content Include="Views\Books\Laws.cshtml" />
     <Content Include="Views\Home\Comments.cshtml" />
-    <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\Index.Mobile.cshtml" />
     <Content Include="Views\Shared\_Layout.Mobile.cshtml" />
     <Content Include="Views\CD\CD.Mobile.cshtml" />
@@ -1292,6 +1293,7 @@
     <Content Include="Views\JohnsMusic\JohnsMusicMenu.cshtml" />
     <Content Include="Views\Books\Mudras.Mobile.cshtml" />
     <Content Include="Views\Books\Mudras.cshtml" />
+    <Content Include="Views\Home\YouTubeLinks.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

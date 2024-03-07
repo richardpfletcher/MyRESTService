@@ -46,13 +46,19 @@
                             }
 
 
-                            <audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
+                            @*<audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
 
 
                                 <source src="@order.PathName" type="audio/wav">
                                 Your browser does not support the audio element.
 
-                            </audio>
+                            </audio>*@
+
+                            <video width="300" controls>
+                                <source src="@order.PathName" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                           
                             @{
                                 counter++;
                             }
@@ -66,7 +72,13 @@
             catch
             {
             }
+           
+            
+           
+
         </div>
+       
+
         <div class="col-sm-6">
             <div>
                 <object data="\PDF\JohnsMusic\Series110.pdf" width="700" height="800" type="application/pdf">

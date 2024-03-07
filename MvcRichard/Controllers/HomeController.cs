@@ -95,6 +95,17 @@ namespace MvcRichard.Controllers
             return View();
         }
 
+        public ActionResult YouTubeLinks()
+        {
+            ViewBag.Message = "Your app description page.";
+            youTubeUrl myyouTubeUrl = new youTubeUrl();
+
+            
+            ViewData["youTube"] =  myyouTubeUrl.getYouTubeUrls();
+
+            return View();
+        }
+
         public ActionResult Comments(EmailModel model)
         {
             string emailLoggedIn = "";
