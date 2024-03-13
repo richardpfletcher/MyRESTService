@@ -52,7 +52,7 @@
 
         </audio>*@
 
-                            <video width="300" controls>
+                            <video width="300" controls onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
                                 <source src="@order.PathName" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -79,7 +79,7 @@
 </div>
 
 <script>
-    var audioElements = document.querySelectorAll('audio');
+    var audioElements = document.querySelectorAll('video');
     var currentAudioIndex = 0;
 
     function playNextAudio() {

@@ -297,6 +297,7 @@
     <Compile Include="Factory\LoadKeysland.cs" />
     <Compile Include="Factory\LoadKeysLifeOfKai.cs" />
     <Compile Include="Factory\LoadKeysLightSpectrum.cs" />
+    <Compile Include="Factory\LoadKeysLittleDropsOfMercy.cs" />
     <Compile Include="Factory\LoadKeysLongevity.cs" />
     <Compile Include="Factory\LoadKeysMadisonAvenue.cs" />
     <Compile Include="Factory\LoadKeysMeditation.cs" />
@@ -1294,6 +1295,8 @@
     <Content Include="Views\Books\Mudras.Mobile.cshtml" />
     <Content Include="Views\Books\Mudras.cshtml" />
     <Content Include="Views\Home\YouTubeLinks.cshtml" />
+    <Content Include="Views\Books\LittleDropsOfMercy.Mobile.cshtml" />
+    <Content Include="Views\Books\LittleDropsOfMercy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
