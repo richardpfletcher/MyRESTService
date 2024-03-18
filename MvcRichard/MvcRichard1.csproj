@@ -266,6 +266,7 @@
     <Compile Include="Factory\LoadKeysDreams.cs" />
     <Compile Include="Factory\LoadKeysDreamTime.cs" />
     <Compile Include="Factory\LoadKeysEconomics.cs" />
+    <Compile Include="Factory\LoadKeysElectronicDoppelgänger.cs" />
     <Compile Include="Factory\LoadKeysEsotericTreasures.cs" />
     <Compile Include="Factory\LoadKeysFamily.cs" />
     <Compile Include="Factory\LoadKeysFamilyCooking.cs" />
@@ -1297,6 +1298,8 @@
     <Content Include="Views\Home\YouTubeLinks.cshtml" />
     <Content Include="Views\Books\LittleDropsOfMercy.Mobile.cshtml" />
     <Content Include="Views\Books\LittleDropsOfMercy.cshtml" />
+    <Content Include="Views\Books\ElectronicDoppelgänger.Mobile.cshtml" />
+    <Content Include="Views\Books\ElectronicDoppelgänger.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
