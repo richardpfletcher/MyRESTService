@@ -47,10 +47,11 @@
                         @*<audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
 
 
-                            <source src="@order.PathName" type="audio/wav">
-                            Your browser does not support the audio element.
+                                <source src="@order.PathName" type="audio/wav">
+                                Your browser does not support the audio element.
 
-                        </audio>*@
+                            </audio>*@
+
                         <video width="300" controls onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
                             <source src="@order.PathName" type="video/mp4">
                             Your browser does not support the video tag.

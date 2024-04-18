@@ -246,6 +246,7 @@
     <Compile Include="Factory\LoadKeysAnatomy.cs" />
     <Compile Include="Factory\LoadKeysAuto.cs" />
     <Compile Include="Factory\LoadKeysBeyond.cs" />
+    <Compile Include="Factory\LoadKeysBlood.cs" />
     <Compile Include="Factory\LoadKeysBreathe.cs" />
     <Compile Include="Factory\LoadKeysBrokenRecord.cs" />
     <Compile Include="Factory\LoadKeysCentralSun.cs" />
@@ -1364,6 +1365,8 @@
     <Content Include="Views\Song\CD9.Mobile.cshtml" />
     <Content Include="Views\Song\CDMenu %281%29.cshtml" />
     <Content Include="Views\Song\CDMenu.cshtml" />
+    <Content Include="Views\Books\Blood.Mobile.cshtml" />
+    <Content Include="Views\Books\Blood.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

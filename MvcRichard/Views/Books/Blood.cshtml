@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "CD";
+    ViewBag.Title = "Blood";
 }
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,17 +11,18 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <div class="page-wrapper">
+
     <div class="row">
         <div class="col-sm-6">
 
             <div>
-                <img src="\Audio\CD\CD5\album.jpg" style="width:300px;height:300px;" alt="album">
+                <img src="\Audio\Books\Blood\album.jpg" style="width:300px;height:300px;" alt="album">
 
             </div>
 
             <div>
 
-                <a href="\PDF\CD\CD5.pdf" target="_blank">Click to Open PDF </a>
+                <a href="\PDF\Books\Blood\Blood.pdf" target="_blank">Click to Open PDF </a>
             </div>
 
             <p></p>
@@ -31,41 +32,30 @@
                 int counter = 0;
                 string clip = "";
 
-
                 foreach (MvcRichard.Models.DocumentModel order
                    in (List<MvcRichard.Models.DocumentModel>)ViewData["orderData"])
                 {
-
                     <div>
-                        <div>
-                            @order.ShortName
-                        </div>
-                        <div>
-                            @{
-                                clip = "audio" + counter;
-                            }
+                        @order.ShortName
+                    </div>
+                    <div>
+                        @{
+                            clip = "audio" + counter;
+                        }
 
 
-                            @*<audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
+                        <audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
 
 
-                                    <source src="@order.PathName" type="audio/wav">
-                                    Your browser does not support the audio element.
+                            <source src="@order.PathName" type="audio/wav">
+                            Your browser does not support the audio element.
 
-                                </audio>*@
-                            <video width="300" controls onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
-                                <source src="@order.PathName" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-
-                            @{
-                                counter++;
-                            }
-
-                        </div>
+                        </audio>
+                        @{
+                            counter++;
+                        }
 
                     </div>
-
                 }
             }
             catch
@@ -74,8 +64,8 @@
         </div>
         <div class="col-sm-6">
             <div>
-                <object data="\PDF\CD\CD5.pdf" width="700" height="800" type="application/pdf">
-                    alt : <a href="\PDF\CD\CD5.pdf">Beautiful day</a>
+                <object data="\PDF\Books\Blood\Blood.pdf" width="700" height="800" type="application/pdf">
+                    alt : <a href="\PDF\Books\Blood\Blood.pdf">Blood</a>
                 </object>
             </div>
         </div>
@@ -83,7 +73,7 @@
 </div>
 
 <script>
-    var audioElements = document.querySelectorAll('video');
+    var audioElements = document.querySelectorAll('audio');
     var currentAudioIndex = 0;
 
     function playNextAudio() {
