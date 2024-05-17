@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "CD";
+    ViewBag.Title = "CD.Mobile";
 }
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,9 +10,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<div class="page-wrapper">
+<div class="container">
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
 
             <div>
                 <img src="\Audio\CD\CD14\album.jpg" style="width:300px;height:300px;" alt="album">
@@ -22,6 +22,7 @@
             <div>
 
                 <a href="\PDF\CD\CD14.pdf" target="_blank">Click to Open PDF </a>
+
             </div>
 
             <p></p>
@@ -30,7 +31,6 @@
             {
                 int counter = 0;
                 string clip = "";
-
 
                 foreach (MvcRichard.Models.DocumentModel order
                    in (List<MvcRichard.Models.DocumentModel>)ViewData["orderData"])
@@ -46,13 +46,18 @@
                             }
 
 
-                            <audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
+                            @*<audio controls class="custom-audio" onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
 
 
-                                <source src="@order.PathName" type="audio/wav">
-                                Your browser does not support the audio element.
+                                    <source src="@order.PathName" type="audio/wav">
+                                    Your browser does not support the audio element.
 
-                            </audio>
+                                </audio>*@
+                            <video width="300" controls onplay="playClickAudio1(@counter)" id="@clip" data-array-index="@counter">
+                                <source src="@order.PathName" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
                             @{
                                 counter++;
                             }
@@ -60,25 +65,18 @@
                         </div>
 
                     </div>
-
                 }
+
             }
             catch
             {
             }
         </div>
-        <div class="col-sm-6">
-            <div>
-                <object data="\PDF\CD\CD14.pdf" width="700" height="800" type="application/pdf">
-                    alt : <a href="\PDF\CD\CD14.pdf">Beautiful day</a>
-                </object>
-            </div>
-        </div>
     </div>
 </div>
 
 <script>
-    var audioElements = document.querySelectorAll('audio');
+    var audioElements = document.querySelectorAll('video');
     var currentAudioIndex = 0;
 
     function playNextAudio() {
