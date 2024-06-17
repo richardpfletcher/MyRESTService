@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Dream Submitter</title>
+</head>
+<body>
+
+    <form id="dreamForm">
+        <label for="dreamInput">Enter your dream:</label><br>
+        <textarea id="dreamInput" name="dreamInput" rows="4" cols="50" placeholder="Type your dream here..."></textarea><br><br>
+        <button type="button" onclick="submitDream()">Submit Dream</button><br><br>
+        <label for="responseOutput">AI's Response:</label><br>
+        <textarea id="responseOutput" name="responseOutput" rows="4" cols="50" placeholder="AI's response will appear here..." readonly></textarea>
+    </form>
+
+    <script>
+function submitDream() {
+  // Placeholder for submitting dream and getting AI's response
+  var dream = document.getElementById("dreamInput").value;
+  // Process the dream and update the responseOutput - This part should be handled by your server-side logic
+  document.getElementById("responseOutput").value = "This is where the AI's response will appear.";
+}
+    </script>
+
+</body>
+</html>

@@ -219,6 +219,7 @@
     <Compile Include="Controllers\CD2023Controller.cs" />
     <Compile Include="Controllers\CDController.cs" />
     <Compile Include="Controllers\ChannelController.cs" />
+    <Compile Include="Controllers\DreamsController.cs" />
     <Compile Include="Controllers\EvolutionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HouseOfTheFutureController.cs" />
@@ -1370,6 +1371,8 @@
     <Content Include="Views\Song\CDMenu.cshtml" />
     <Content Include="Views\Books\Catalyst.Mobile.cshtml" />
     <Content Include="Views\Books\Catalyst.cshtml" />
+    <Content Include="Views\Dreams\dreams.cshtml" />
+    <Content Include="Views\Dreams\DreamsMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
