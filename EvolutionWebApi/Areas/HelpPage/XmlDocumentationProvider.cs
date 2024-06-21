@@ -120,9 +120,7 @@ namespace EvolutionWebApi.Areas.HelpPage
                 XPathNavigator node = parentNode.SelectSingleNode(tagName);
                 if (node != null)
                 {
-                    //return node.Value.Trim();
-                    return node.InnerXml;
-                    //return node.InnerXml.Replace("\r\n", "<br/>").Replace("\n", "<br/>");
+                    return node.Value.Trim();
                 }
             }
 
