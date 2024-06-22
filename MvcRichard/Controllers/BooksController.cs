@@ -1230,6 +1230,8 @@ namespace MvcRichard.Controllers
             return View();
 
         }
+
+       
         public ActionResult TheWay()
         {
 
@@ -1271,7 +1273,7 @@ namespace MvcRichard.Controllers
 
         }
 
-        [Route("/{chapter}")]
+        [System.Web.Mvc.Route("{chapter}")]
 
         //Please Select one
 
